@@ -4,38 +4,43 @@
 
 - [소개](README.md)
 
-### Part 1. 이제부터 수학을 배우는 여러분에게
-- [Chapter 01. 이 코스의 특징과 구성](docs/part1/ch01-about-this-course.md)
-- [Chapter 02. 먼저 중학교 기초 수학을 빠르게 배워 보자](docs/part1/ch02-middle-school-speedrun.md)
+### Part 1. 준비운동 — 수식이 무섭지 않아지기
+- [Chapter 01. 이 코스의 지도](docs/part1/ch01-roadmap.md)
+- [Chapter 02. 수식을 읽는 최소한의 약속](docs/part1/ch02-reading-notation.md)
+- [Chapter 03. 좌표와 그래프 — 데이터를 눈으로 보기](docs/part1/ch03-coordinates.md)
 
-### Part 2. 함수
-- [Chapter 03. 완전 초보도 이해하는 함수](docs/part2/ch03-what-is-function.md)
-- [Chapter 04. 일차함수와 이차함수](docs/part2/ch04-linear-quadratic.md)
-- [Chapter 05. 급격히 증가하는 지수함수](docs/part2/ch05-exponential.md)
-- [Chapter 06. 몇 년 만에 10배가 될까? 로그함수](docs/part2/ch06-logarithm.md)
+### Part 2. 함수 — AI 모델의 정체
+- [Chapter 04. 함수 — 입력과 출력의 상자](docs/part2/ch04-function.md)
+- [Chapter 05. 일차함수 — 가장 단순한 예측기](docs/part2/ch05-linear.md)
+- [Chapter 06. 이차함수 — 오차를 담는 골짜기](docs/part2/ch06-quadratic-loss.md)
+- [Chapter 07. 지수함수와 로그함수](docs/part2/ch07-exp-log.md)
+- [Chapter 08. 합성함수와 활성화 함수](docs/part2/ch08-composite-activation.md)
 
-### Part 3. 경우의 수 / 확률과 통계
-- [Chapter 07. 패턴의 가짓수를 세는 경우의 수](docs/part3/ch07-counting.md)
-- [Chapter 08. 확률과 기댓값을 이해하자](docs/part3/ch08-probability-expectation.md)
-- [Chapter 09. 데이터 분석을 위한 통계](docs/part3/ch09-statistics.md)
-- [Chapter 10. 데이터 분석을 좀 더 깊게 해 보자](docs/part3/ch10-correlation.md)
-- [휴식. 사고력을 높이는 퍼즐](docs/part3/interlude-puzzles.md)
+### Part 3. 벡터와 행렬 — 데이터를 담는 그릇
+- [Chapter 09. 벡터 — 숫자 여러 개를 한 덩어리로](docs/part3/ch09-vector.md)
+- [Chapter 10. 내적 — '닮음'을 숫자로 재기](docs/part3/ch10-dot-product.md)
+- [Chapter 11. 행렬과 행렬 곱 — 신경망 한 층의 정체](docs/part3/ch11-matrix.md)
 
-### Part 4. 미적분
-- [Chapter 11. 변화의 속도를 보는 미분](docs/part4/ch11-differentiation.md)
-- [Chapter 12. 누적값을 보는 적분](docs/part4/ch12-integration.md)
+### Part 4. 확률과 통계 — '아마도'를 다루는 법
+- [Chapter 12. 경우의 수 — 세는 법부터](docs/part4/ch12-counting.md)
+- [Chapter 13. 확률과 기댓값](docs/part4/ch13-probability.md)
+- [Chapter 14. 조건부확률과 베이즈 정리](docs/part4/ch14-bayes.md)
+- [Chapter 15. 통계 — 데이터의 생김새 읽기](docs/part4/ch15-statistics.md)
 
-### Part 5. 그 외의 주제
-- [Chapter 13. 정수(1): 유클리드 호제법](docs/part5/ch13-euclidean.md)
-- [Chapter 14. 정수(2): 10진법과 2진법](docs/part5/ch14-binary.md)
-- [Chapter 15. 수열을 정복하자](docs/part5/ch15-sequences.md)
-- [Chapter 16. 삼각비와 삼각함수를 정복하자](docs/part5/ch16-trigonometry.md)
+### Part 5. 미분과 적분 — 학습이 일어나는 원리
+- [Chapter 16. 수열과 시그마 — 반복을 적는 언어](docs/part5/ch16-sequence-sigma.md)
+- [Chapter 17. 미분 — 변화의 속도를 보는 도구](docs/part5/ch17-derivative.md)
+- [Chapter 18. 편미분과 기울기](docs/part5/ch18-gradient.md)
+- [Chapter 19. 연쇄법칙과 경사하강법](docs/part5/ch19-chain-rule-gd.md)
+- [Chapter 20. 적분 — 쌓인 값과 확률](docs/part5/ch20-integral.md)
 
-### Part 6. 지금까지의 내용을 복습해 보자
-- [Chapter 17. 고등학교 수학 기초 마무리](docs/part6/ch17-wrap-up.md)
+### Part 6. 조립하기 — 배운 수학으로 AI 읽기
+- [Chapter 21. AI 수식 해부하기](docs/part6/ch21-dissect-formulas.md)
+- [Chapter 22. 종이 위에서 굴려보는 미니 신경망](docs/part6/ch22-hand-run-network.md)
 
-### 부록 (선택) — AI를 위해 한 걸음 더
-- [A.1–A.2 벡터와 내적](docs/appendix/a1-vectors.md)
-- [A.3–A.5 행렬 · 행렬 곱 · shape](docs/appendix/a2-matrices.md)
-- [A.6 편미분과 연쇄법칙](docs/appendix/a3-chain-rule.md)
-- [A.7 기호 치트시트](docs/appendix/a4-cheatsheet.md)
+### 부록 — 필요할 때 펼치는 참고 자료
+- [A. 기호 · 그리스 문자 치트시트](docs/appendix/a-symbol-cheatsheet.md)
+- [B. 삼각함수 아주 짧게](docs/appendix/b-trigonometry.md)
+- [C. 수식 ↔ 파이썬/NumPy 대조표](docs/appendix/c-numpy-table.md)
+- [D. 2진법과 부동소수점](docs/appendix/d-floating-point.md)
+- [E. 다음 단계 로드맵](docs/appendix/e-next-steps.md)

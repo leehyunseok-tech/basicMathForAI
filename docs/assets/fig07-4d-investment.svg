@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="328" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">로그가 실제로 답해 주는 질문 — “몇 년이 걸릴까?”</text>
+  <text x="30" y="60" font-size="13.5" fill="#191d24">1000만 원을 연이율 10%(매년 1.1배)로 굴리면, 1억 원이 되는 건 몇 년 후일까요?</text>
+
+  <g>
+    <rect x="34" y="80" width="120" height="86" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+    <rect x="66" y="118" width="56" height="14" fill="#a2661c"/>
+    <text x="94" y="152" font-size="12" fill="#191d24" text-anchor="middle">처음</text>
+    <text x="94" y="98" font-size="12" fill="#a2661c" text-anchor="middle">1000만 원</text>
+    <path d="M160 123 L176 116 L176 130 z" fill="#a2661c"/>
+
+    <rect x="182" y="80" width="120" height="86" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+    <rect x="214" y="112" width="56" height="20" fill="#a2661c"/>
+    <text x="242" y="152" font-size="12" fill="#191d24" text-anchor="middle">1년 후</text>
+    <text x="242" y="98" font-size="12" fill="#a2661c" text-anchor="middle">1100만 원</text>
+    <path d="M308 123 L324 116 L324 130 z" fill="#a2661c"/>
+
+    <rect x="330" y="80" width="120" height="86" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+    <rect x="362" y="106" width="56" height="26" fill="#a2661c"/>
+    <text x="390" y="152" font-size="12" fill="#191d24" text-anchor="middle">2년 후</text>
+    <text x="390" y="98" font-size="12" fill="#a2661c" text-anchor="middle">1210만 원</text>
+
+    <text x="480" y="128" font-size="20" fill="#7b838d" text-anchor="middle">· · ·</text>
+
+    <rect x="516" y="80" width="130" height="86" rx="4" fill="#dfeee9" stroke="#0f7864" stroke-width="1.8"/>
+    <rect x="552" y="94" width="58" height="38" fill="#0f7864"/>
+    <text x="581" y="152" font-size="12.5" fill="#0f7864" text-anchor="middle" font-weight="bold">?? 년 후</text>
+    <text x="581" y="88" font-size="12" fill="#0f7864" text-anchor="middle">1억 원</text>
+  </g>
+
+  <rect x="34" y="186" width="440" height="122" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="54" y="212" font-size="13" fill="#191d24">x년 후의 투자금은 처음의 <tspan fill="#3a45a0">1.1ˣ 배</tspan>입니다.</text>
+  <text x="54" y="240" font-size="13" fill="#191d24">10배가 되려면 → <tspan fill="#3a45a0">1.1을 몇 제곱하면 10이 될까?</tspan></text>
+  <text x="54" y="274" font-size="19" fill="#3a45a0">log₁.₁ 10 = ?</text>
+  <text x="54" y="298" font-size="12.5" fill="#7b838d">바로 이 질문에 답하는 게 로그입니다.</text>
+
+  <rect x="494" y="186" width="274" height="122" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="631" y="214" font-size="13" fill="#3a45a0" text-anchor="middle">계산기로 두드리면</text>
+  <text x="631" y="248" font-size="20" fill="#191d24" text-anchor="middle">24.15…</text>
+  <text x="631" y="280" font-size="15" fill="#0f7864" text-anchor="middle">→ 25년이면 10배</text>
+  <text x="631" y="300" font-size="12" fill="#7b838d" text-anchor="middle">계산은 계산기가, 의미는 사람이</text>
+</svg>

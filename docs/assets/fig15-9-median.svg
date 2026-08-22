@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="318" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="34" font-size="15" fill="#7b838d">평균값은 극단적인 데이터 하나에 크게 흔들립니다</text>
+  <text x="30" y="58" font-size="13.5" fill="#191d24">월수입(만 원): 200, 300, 400, 600, <tspan fill="#a2661c" font-weight="bold">5000</tspan></text>
+
+  <g>
+    <circle cx="120" cy="122" r="34" fill="#4d5561"/><text x="120" y="128" font-size="14" fill="#fff" text-anchor="middle">200</text>
+    <circle cx="212" cy="122" r="34" fill="#6b7280"/><text x="212" y="128" font-size="14" fill="#fff" text-anchor="middle">300</text>
+    <circle cx="304" cy="122" r="36" fill="#8c2f3d"/><text x="304" y="128" font-size="15" fill="#fff" text-anchor="middle">400</text>
+    <circle cx="396" cy="122" r="34" fill="#9aa0a6"/><text x="396" y="128" font-size="14" fill="#fff" text-anchor="middle">600</text>
+    <circle cx="488" cy="122" r="34" fill="#b9bdb5"/><text x="488" y="128" font-size="14" fill="#fff" text-anchor="middle">5000</text>
+    <path d="M304 74 L297 84 L311 84 z" fill="#8c2f3d"/>
+    <text x="304" y="68" font-size="13" fill="#8c2f3d" text-anchor="middle" font-weight="bold">중앙값</text>
+  </g>
+
+  <rect x="546" y="86" width="222" height="74" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+  <text x="657" y="112" font-size="13" fill="#a2661c" text-anchor="middle">평균값 = 1300만 원</text>
+  <text x="657" y="136" font-size="12" fill="#191d24" text-anchor="middle">5명 중 4명이 600만 원 이하인데</text>
+  <text x="657" y="152" font-size="12" fill="#a2661c" text-anchor="middle">평균은 1300만 원…</text>
+
+  <text x="30" y="196" font-size="13.5" fill="#191d24">중앙값 = 크기 순으로 줄 세웠을 때 <tspan fill="#8c2f3d">딱 가운데</tspan> 값. 개수가 짝수면 가운데 둘의 평균.</text>
+
+  <g>
+    <circle cx="100" cy="252" r="28" fill="#4d5561"/><text x="100" y="257" font-size="12" fill="#fff" text-anchor="middle">100</text>
+    <circle cx="178" cy="252" r="28" fill="#6b7280"/><text x="178" y="257" font-size="12" fill="#fff" text-anchor="middle">200</text>
+    <circle cx="256" cy="252" r="30" fill="#8c2f3d"/><text x="256" y="257" font-size="12" fill="#fff" text-anchor="middle">300</text>
+    <circle cx="334" cy="252" r="30" fill="#8c2f3d"/><text x="334" y="257" font-size="12" fill="#fff" text-anchor="middle">400</text>
+    <circle cx="412" cy="252" r="28" fill="#9aa0a6"/><text x="412" y="257" font-size="12" fill="#fff" text-anchor="middle">600</text>
+    <circle cx="490" cy="252" r="28" fill="#b9bdb5"/><text x="490" y="257" font-size="12" fill="#fff" text-anchor="middle">5000</text>
+    <path d="M256 212 L250 222 L262 222 z" fill="#8c2f3d"/>
+    <path d="M334 212 L328 222 L340 222 z" fill="#8c2f3d"/>
+    <text x="295" y="206" font-size="13" fill="#8c2f3d" text-anchor="middle" font-weight="bold">(300 + 400) ÷ 2 = 350</text>
+  </g>
+
+  <rect x="546" y="226" width="222" height="56" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+  <text x="657" y="250" font-size="12.5" fill="#0f7864" text-anchor="middle">이상치가 있으면</text>
+  <text x="657" y="270" font-size="12.5" fill="#0f7864" text-anchor="middle">중앙값이 더 정직합니다</text>
+</svg>

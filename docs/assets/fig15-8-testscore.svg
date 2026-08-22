@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="34" font-size="15" fill="#7b838d">같은 80점이라도 표준편차에 따라 의미가 완전히 달라집니다</text>
+  <text x="30" y="58" font-size="13.5" fill="#191d24">수학 시험에서 <tspan font-weight="bold">80점</tspan>을 받았습니다. 평균은 60점입니다. 잘 본 걸까요?</text>
+
+  <g>
+    <text x="140" y="94" font-size="13" fill="#a2661c">표준편차가 18점이라면</text>
+    <line x1="120" y1="130" x2="700" y2="130" stroke="#191d24" stroke-width="1.4"/>
+    <g stroke="#7b838d" stroke-width="1.2">
+      <line x1="240" y1="124" x2="240" y2="136"/><line x1="360" y1="124" x2="360" y2="136"/>
+      <line x1="480" y1="124" x2="480" y2="136"/><line x1="600" y1="124" x2="600" y2="136"/>
+    </g>
+    <circle cx="360" cy="130" r="5" fill="#191d24"/>
+    <text x="360" y="152" font-size="12" fill="#191d24" text-anchor="middle">60점</text>
+    <text x="360" y="168" font-size="11" fill="#7b838d" text-anchor="middle">평균</text>
+    <text x="480" y="152" font-size="12" fill="#7b838d" text-anchor="middle">78점</text>
+    <text x="600" y="152" font-size="12" fill="#7b838d" text-anchor="middle">96점</text>
+    <path d="M362 116 Q420 100 478 116" fill="none" stroke="#3a45a0" stroke-width="1.3"/>
+    <text x="420" y="98" font-size="11" fill="#3a45a0" text-anchor="middle">표준편차 1개분</text>
+    <path d="M493 106 V124" stroke="#a2661c" stroke-width="2"/><path d="M488 118 L493 128 L498 118 z" fill="#a2661c"/>
+    <rect x="462" y="82" width="62" height="24" rx="4" fill="#a2661c"/>
+    <text x="493" y="99" font-size="12" fill="#ffffff" text-anchor="middle">80점</text>
+    <text x="640" y="130" font-size="12.5" fill="#a2661c">→ 1.1배 · 조금 높은 정도</text>
+  </g>
+
+  <g>
+    <text x="140" y="206" font-size="13" fill="#0f7864">표준편차가 7점이라면</text>
+    <line x1="120" y1="242" x2="700" y2="242" stroke="#191d24" stroke-width="1.4"/>
+    <g stroke="#7b838d" stroke-width="1.2">
+      <line x1="240" y1="236" x2="240" y2="248"/><line x1="360" y1="236" x2="360" y2="248"/>
+      <line x1="420" y1="236" x2="420" y2="248"/><line x1="480" y1="236" x2="480" y2="248"/>
+      <line x1="540" y1="236" x2="540" y2="248"/>
+    </g>
+    <circle cx="360" cy="242" r="5" fill="#191d24"/>
+    <text x="360" y="264" font-size="12" fill="#191d24" text-anchor="middle">60점</text>
+    <text x="420" y="264" font-size="12" fill="#7b838d" text-anchor="middle">67점</text>
+    <text x="480" y="264" font-size="12" fill="#7b838d" text-anchor="middle">74점</text>
+    <text x="540" y="264" font-size="12" fill="#7b838d" text-anchor="middle">81점</text>
+    <path d="M362 228 Q390 214 418 228" fill="none" stroke="#3a45a0" stroke-width="1.3"/>
+    <text x="390" y="212" font-size="11" fill="#3a45a0" text-anchor="middle">1개분</text>
+    <path d="M533 218 V236" stroke="#0f7864" stroke-width="2"/><path d="M528 230 L533 240 L538 230 z" fill="#0f7864"/>
+    <rect x="502" y="194" width="62" height="24" rx="4" fill="#0f7864"/>
+    <text x="533" y="211" font-size="12" fill="#ffffff" text-anchor="middle">80점</text>
+    <text x="600" y="242" font-size="12.5" fill="#0f7864">→ 거의 3배 · 굉장히 높은 점수</text>
+  </g>
+</svg>

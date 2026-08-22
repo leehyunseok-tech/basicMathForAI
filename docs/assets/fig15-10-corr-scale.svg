@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="34" font-size="15" fill="#7b838d">상관계수 눈금 — 값이 어디쯤이면 “관계가 있다”고 볼까</text>
+
+  <g>
+    <rect x="60" y="120" width="228" height="34" fill="#a2661c"/>
+    <rect x="288" y="120" width="184" height="34" fill="#4d5561"/>
+    <rect x="472" y="120" width="268" height="34" fill="#3a45a0"/>
+  </g>
+  <g font-size="11.5" fill="#ffffff" text-anchor="middle">
+    <text x="70" y="172" fill="#7b838d">−1.0</text><text x="160" y="172" fill="#7b838d">−0.6</text>
+    <text x="288" y="172" fill="#7b838d">−0.3</text><text x="380" y="172" fill="#7b838d">0</text>
+    <text x="472" y="172" fill="#7b838d">+0.3</text><text x="620" y="172" fill="#7b838d">+0.6</text><text x="736" y="172" fill="#7b838d">+1.0</text>
+  </g>
+  <text x="174" y="142" font-size="13" fill="#ffffff" text-anchor="middle">음의 상관관계</text>
+  <text x="380" y="142" font-size="13" fill="#ffffff" text-anchor="middle">거의 없음</text>
+  <text x="606" y="142" font-size="13" fill="#ffffff" text-anchor="middle">양의 상관관계</text>
+
+  <g>
+    <circle cx="130" cy="76" r="30" fill="#ffffff" stroke="#a2661c" stroke-width="2"/>
+    <g fill="#a2661c"><circle cx="118" cy="64" r="3"/><circle cx="126" cy="72" r="3"/><circle cx="134" cy="80" r="3"/><circle cx="142" cy="88" r="3"/></g>
+    <path d="M130 108 L124 118 L136 118 z" fill="#a2661c"/>
+
+    <circle cx="380" cy="76" r="30" fill="#ffffff" stroke="#4d5561" stroke-width="2"/>
+    <g fill="#4d5561"><circle cx="368" cy="82" r="3"/><circle cx="378" cy="64" r="3"/><circle cx="390" cy="86" r="3"/><circle cx="392" cy="68" r="3"/></g>
+    <path d="M380 108 L374 118 L386 118 z" fill="#4d5561"/>
+
+    <circle cx="640" cy="76" r="30" fill="#ffffff" stroke="#3a45a0" stroke-width="2"/>
+    <g fill="#3a45a0"><circle cx="628" cy="88" r="3"/><circle cx="636" cy="80" r="3"/><circle cx="644" cy="72" r="3"/><circle cx="652" cy="64" r="3"/></g>
+    <path d="M640 108 L634 118 L646 118 z" fill="#3a45a0"/>
+  </g>
+
+  <rect x="60" y="192" width="680" height="42" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="80" y="210" font-size="12.5" fill="#191d24"><tspan fill="#3a45a0">양의 상관</tspan> — 공부 시간이 늘면 점수도 오른다 · <tspan fill="#a2661c">음의 상관</tspan> — 가격이 오르면 판매량은 준다</text>
+  <text x="80" y="228" font-size="12.5" fill="#7b838d">−0.3 ~ +0.3 사이면 “거의 관계 없다”고 봅니다. 모델 입력을 고를 때 이 기준을 씁니다.</text>
+</svg>

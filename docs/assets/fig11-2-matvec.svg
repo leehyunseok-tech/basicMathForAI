@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">행렬 × 벡터 = “각 가로줄과 내적을 한 번씩” — 새로운 규칙이 아닙니다</text>
+
+  <g font-family="'SF Mono',Menlo,Consolas,monospace">
+    <text x="46" y="104" font-size="22" fill="#191d24">⎡</text><text x="46" y="146" font-size="22" fill="#191d24">⎣</text>
+    <rect x="66" y="82" width="130" height="28" fill="#e5e7f4"/>
+    <text x="76" y="103" font-size="15" fill="#3a45a0">2&#160;&#160;&#160;1&#160;&#160;&#160;3</text>
+    <rect x="66" y="118" width="130" height="28" fill="#dfeee9"/>
+    <text x="76" y="139" font-size="15" fill="#0f7864">0&#160;&#160;&#160;4&#160;&#160;&#160;1</text>
+    <text x="200" y="104" font-size="22" fill="#191d24">⎤</text><text x="200" y="146" font-size="22" fill="#191d24">⎦</text>
+
+    <text x="232" y="124" font-size="18" fill="#191d24">×</text>
+
+    <text x="262" y="96" font-size="22" fill="#191d24">⎡</text><text x="262" y="124" font-size="22" fill="#191d24">⎢</text><text x="262" y="152" font-size="22" fill="#191d24">⎣</text>
+    <text x="282" y="96" font-size="15" fill="#a2661c">1</text>
+    <text x="282" y="124" font-size="15" fill="#a2661c">2</text>
+    <text x="282" y="152" font-size="15" fill="#a2661c">3</text>
+    <text x="300" y="96" font-size="22" fill="#191d24">⎤</text><text x="300" y="124" font-size="22" fill="#191d24">⎥</text><text x="300" y="152" font-size="22" fill="#191d24">⎦</text>
+
+    <text x="330" y="124" font-size="18" fill="#191d24">=</text>
+
+    <text x="360" y="104" font-size="22" fill="#191d24">⎡</text><text x="360" y="146" font-size="22" fill="#191d24">⎣</text>
+    <text x="382" y="103" font-size="15" fill="#3a45a0">13</text>
+    <text x="382" y="139" font-size="15" fill="#0f7864">11</text>
+    <text x="414" y="104" font-size="22" fill="#191d24">⎤</text><text x="414" y="146" font-size="22" fill="#191d24">⎦</text>
+  </g>
+
+  <rect x="470" y="72" width="298" height="130" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="490" y="100" font-size="13.5" fill="#3a45a0">첫째 줄과 내적</text>
+  <text x="490" y="124" font-size="13.5" fill="#191d24">2×1 + 1×2 + 3×3 = 13</text>
+  <text x="490" y="158" font-size="13.5" fill="#0f7864">둘째 줄과 내적</text>
+  <text x="490" y="182" font-size="13.5" fill="#191d24">0×1 + 4×2 + 1×3 = 11</text>
+
+  <rect x="46" y="220" width="722" height="58" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="70" y="246" font-size="13.5" fill="#191d24">가로줄이 2개니까 결과도 2개. &#160;<tspan fill="#3a45a0">결과의 개수 = 행렬의 가로줄 개수</tspan></text>
+  <text x="70" y="268" font-size="13" fill="#7b838d">신경망에서는 “다음 층 뉴런 개수”가 됩니다.</text>
+</svg>

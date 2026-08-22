@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 310" width="800" height="310" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="308" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">단어를 벡터로 바꾸면 — 뜻이 비슷한 단어는 가까운 곳에 모입니다</text>
+
+  <line x1="70" y1="256" x2="450" y2="256" stroke="#191d24" stroke-width="1.5"/>
+  <line x1="70" y1="270" x2="70" y2="70" stroke="#191d24" stroke-width="1.5"/>
+  <text x="460" y="260" font-size="11.5" fill="#7b838d">축의 의미는 사람이 정한 게 아닙니다</text>
+
+  <g>
+    <circle cx="150" cy="120" r="6" fill="#3a45a0"/><text x="162" y="116" font-size="13" fill="#3a45a0">왕</text>
+    <circle cx="200" cy="104" r="6" fill="#3a45a0"/><text x="212" y="100" font-size="13" fill="#3a45a0">여왕</text>
+    <circle cx="170" cy="160" r="6" fill="#3a45a0"/><text x="182" y="156" font-size="13" fill="#3a45a0">남자</text>
+    <circle cx="220" cy="144" r="6" fill="#3a45a0"/><text x="232" y="140" font-size="13" fill="#3a45a0">여자</text>
+
+    <circle cx="350" cy="210" r="6" fill="#0f7864"/><text x="362" y="206" font-size="13" fill="#0f7864">고양이</text>
+    <circle cx="382" cy="228" r="6" fill="#0f7864"/><text x="394" y="224" font-size="13" fill="#0f7864">강아지</text>
+    <circle cx="332" cy="236" r="6" fill="#0f7864"/><text x="278" y="240" font-size="13" fill="#0f7864">햄스터</text>
+  </g>
+  <path d="M150 120 L170 160" stroke="#a2661c" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <path d="M200 104 L220 144" stroke="#a2661c" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="128" y="196" font-size="11.5" fill="#a2661c">두 화살표가</text>
+  <text x="128" y="212" font-size="11.5" fill="#a2661c">같은 방향·같은 길이</text>
+
+  <rect x="500" y="76" width="266" height="180" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="520" y="106" font-size="14" fill="#3a45a0">유명한 계산</text>
+  <text x="520" y="140" font-size="14" fill="#191d24">왕 − 남자 + 여자 ≈ 여왕</text>
+  <text x="520" y="172" font-size="12.5" fill="#4d5561">“왕”에서 “남자다움”을 빼고</text>
+  <text x="520" y="192" font-size="12.5" fill="#4d5561">“여자다움”을 더하면 “여왕”.</text>
+  <text x="520" y="226" font-size="12.5" fill="#3a45a0">방금 배운 벡터 덧셈·뺄셈</text>
+  <text x="520" y="246" font-size="12.5" fill="#3a45a0">그대로입니다.</text>
+
+  <text x="30" y="294" font-size="13" fill="#7b838d">실제로는 2차원이 아니라 768차원쯤 됩니다. 그림으로만 못 그릴 뿐, 계산은 똑같습니다.</text>
+</svg>

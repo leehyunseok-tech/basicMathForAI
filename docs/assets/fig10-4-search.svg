@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">검색·추천·RAG는 전부 “코사인 유사도 순으로 줄 세우기”입니다</text>
+
+  <rect x="30" y="58" width="200" height="60" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="130" y="84" font-size="13" fill="#3a45a0" text-anchor="middle">질문</text>
+  <text x="130" y="106" font-size="13" fill="#191d24" text-anchor="middle">“환불 어떻게 해요?”</text>
+  <path d="M130 126 V150" stroke="#191d24" stroke-width="1.6"/><path d="M125 145 L130 153 L135 145 z" fill="#191d24"/>
+  <rect x="30" y="158" width="200" height="46" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="130" y="186" font-size="12.5" fill="#4d5561" text-anchor="middle">벡터로 변환 (임베딩)</text>
+
+  <path d="M244 180 H286" stroke="#3a45a0" stroke-width="1.8"/><path d="M281 175 L288 180 L281 185 z" fill="#3a45a0"/>
+  <text x="265" y="168" font-size="11.5" fill="#3a45a0" text-anchor="middle">비교</text>
+
+  <g>
+    <rect x="300" y="58" width="470" height="30" fill="#191d24"/>
+    <text x="322" y="78" fill="#ffffff" font-size="12.5">문서</text>
+    <text x="620" y="78" fill="#ffffff" font-size="12.5">코사인 유사도</text>
+
+    <rect x="300" y="88" width="470" height="34" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="322" y="110" font-size="13" fill="#191d24">“환불 정책 안내”</text>
+    <rect x="600" y="98" width="120" height="14" fill="#3a45a0"/>
+    <text x="732" y="110" font-size="12.5" fill="#3a45a0">0.91</text>
+
+    <rect x="300" y="122" width="470" height="34" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="322" y="144" font-size="13" fill="#4d5561">“교환 절차”</text>
+    <rect x="600" y="132" width="88" height="14" fill="#7b838d"/>
+    <text x="732" y="144" font-size="12.5" fill="#7b838d">0.67</text>
+
+    <rect x="300" y="156" width="470" height="34" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="322" y="178" font-size="13" fill="#4d5561">“채용 공고”</text>
+    <rect x="600" y="166" width="16" height="14" fill="#d6dad1"/>
+    <text x="732" y="178" font-size="12.5" fill="#7b838d">0.12</text>
+  </g>
+
+  <rect x="300" y="212" width="470" height="44" rx="4" fill="#ffffff" stroke="#0f7864"/>
+  <text x="535" y="240" font-size="13.5" fill="#0f7864" text-anchor="middle">가장 점수 높은 문서를 골라 답변에 씁니다 (RAG)</text>
+
+  <text x="30" y="240" font-size="12.5" fill="#7b838d">“의미”를 이해한 게</text>
+  <text x="30" y="258" font-size="12.5" fill="#7b838d">아니라 각도를 잰 것뿐입니다.</text>
+</svg>

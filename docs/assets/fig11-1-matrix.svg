@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">벡터가 “한 줄”이면, 행렬은 “표” — 그리고 데이터셋은 그 자체로 행렬입니다</text>
+
+  <g>
+    <rect x="30" y="58" width="330" height="30" fill="#191d24"/>
+    <text x="52" y="78" fill="#ffffff" font-size="12.5">학생</text>
+    <text x="150" y="78" fill="#ffffff" font-size="12.5">키</text>
+    <text x="230" y="78" fill="#ffffff" font-size="12.5">몸무게</text>
+    <text x="310" y="78" fill="#ffffff" font-size="12.5">나이</text>
+    <rect x="30" y="88" width="330" height="30" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="52" y="108" font-size="12.5" fill="#191d24">A</text><text x="150" y="108" font-size="12.5" fill="#3a45a0">172</text>
+    <text x="230" y="108" font-size="12.5" fill="#3a45a0">65</text><text x="310" y="108" font-size="12.5" fill="#3a45a0">30</text>
+    <rect x="30" y="118" width="330" height="30" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="52" y="138" font-size="12.5" fill="#191d24">B</text><text x="150" y="138" font-size="12.5" fill="#4d5561">165</text>
+    <text x="230" y="138" font-size="12.5" fill="#4d5561">58</text><text x="310" y="138" font-size="12.5" fill="#4d5561">24</text>
+    <rect x="30" y="148" width="330" height="30" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="52" y="168" font-size="12.5" fill="#191d24">C</text><text x="150" y="168" font-size="12.5" fill="#4d5561">180</text>
+    <text x="230" y="168" font-size="12.5" fill="#4d5561">77</text><text x="310" y="168" font-size="12.5" fill="#4d5561">41</text>
+    <text x="195" y="204" font-size="12.5" fill="#7b838d" text-anchor="middle">엑셀 표</text>
+  </g>
+
+  <path d="M382 118 H420" stroke="#3a45a0" stroke-width="1.8"/><path d="M415 113 L422 118 L415 123 z" fill="#3a45a0"/>
+
+  <g font-family="'SF Mono',Menlo,Consolas,monospace">
+    <text x="450" y="98" font-size="20" fill="#3a45a0">⎡</text><text x="450" y="130" font-size="20" fill="#3a45a0">⎢</text><text x="450" y="162" font-size="20" fill="#3a45a0">⎣</text>
+    <text x="480" y="98" font-size="15" fill="#3a45a0">172&#160;&#160;65&#160;&#160;30</text>
+    <text x="480" y="130" font-size="15" fill="#191d24">165&#160;&#160;58&#160;&#160;24</text>
+    <text x="480" y="162" font-size="15" fill="#191d24">180&#160;&#160;77&#160;&#160;41</text>
+    <text x="618" y="98" font-size="20" fill="#3a45a0">⎤</text><text x="618" y="130" font-size="20" fill="#3a45a0">⎥</text><text x="618" y="162" font-size="20" fill="#3a45a0">⎦</text>
+  </g>
+  <text x="534" y="204" font-size="12.5" fill="#7b838d" text-anchor="middle">행렬 (3 × 3)</text>
+
+  <rect x="650" y="76" width="120" height="106" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="710" y="104" font-size="12.5" fill="#191d24" text-anchor="middle">가로줄 = 행</text>
+  <text x="710" y="126" font-size="12.5" fill="#7b838d" text-anchor="middle">(데이터 1건)</text>
+  <text x="710" y="152" font-size="12.5" fill="#191d24" text-anchor="middle">세로줄 = 열</text>
+  <text x="710" y="174" font-size="12.5" fill="#7b838d" text-anchor="middle">(항목 1개)</text>
+
+  <text x="30" y="240" font-size="13.5" fill="#191d24">크기는 항상 <tspan fill="#3a45a0">(행 개수 × 열 개수)</tspan> 순서로 씁니다. 3×3 행렬, 32×784 행렬.</text>
+  <text x="30" y="262" font-size="13" fill="#7b838d">“데이터 32건, 항목 784개” = 32×784 행렬. 딥러닝 코드에서 매일 보는 숫자입니다.</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">Chapter 08이 남긴 문제 — 숫자 10만 개를 어떻게 한 줄로 쓸까?</text>
+
+  <rect x="30" y="58" width="350" height="150" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="205" y="86" font-size="13.5" fill="#a2661c" text-anchor="middle">하나씩 쓰면</text>
+  <text x="205" y="118" font-size="13" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">w₁x₁ + w₂x₂ + w₃x₃</text>
+  <text x="205" y="142" font-size="13" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">+ ... + w₇₈₄x₇₈₄ + b</text>
+  <text x="205" y="180" font-size="13" fill="#a2661c" text-anchor="middle">784개를 다 적을 수는 없습니다</text>
+
+  <rect x="420" y="58" width="350" height="150" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="595" y="86" font-size="13.5" fill="#3a45a0" text-anchor="middle">한 덩어리로 묶으면</text>
+  <text x="595" y="130" font-size="26" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">w · x + b</text>
+  <text x="595" y="180" font-size="13" fill="#3a45a0" text-anchor="middle">784개든 100만 개든 이 한 줄</text>
+
+  <text x="30" y="238" font-size="13" fill="#7b838d">굵은 글씨나 화살표(<tspan font-weight="bold">x</tspan> 또는 x&#8407;)는 “이건 숫자 하나가 아니라 뭉치다”라는 표시입니다.</text>
+</svg>

@@ -17,9 +17,9 @@
 - [Chapter 08. 합성함수와 활성화 함수](docs/part2/ch08-composite-activation.md) ✅
 
 ### Part 3. 벡터와 행렬 — 데이터를 담는 그릇
-- Chapter 09. 벡터 — 숫자 여러 개를 한 덩어리로 *(집필 예정)*
-- Chapter 10. 내적 — '닮음'을 숫자로 재기 *(집필 예정)*
-- Chapter 11. 행렬과 행렬 곱 — 신경망 한 층의 정체 *(집필 예정)*
+- [Chapter 09. 벡터 — 숫자 여러 개를 한 덩어리로](docs/part3/ch09-vector.md) ✅
+- [Chapter 10. 내적 — '닮음'을 숫자로 재기](docs/part3/ch10-dot-product.md) ✅
+- [Chapter 11. 행렬과 행렬 곱 — 신경망 한 층의 정체](docs/part3/ch11-matrix.md) ✅
 
 ### Part 4. 확률과 통계 — '아마도'를 다루는 법
 - Chapter 12. 경우의 수 — 세는 법부터 *(집필 예정)*

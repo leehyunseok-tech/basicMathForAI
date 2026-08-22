@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">내적 계산법 — 같은 자리끼리 곱하고, 전부 더한다. 그게 전부입니다.</text>
+
+  <g font-size="17" font-family="'SF Mono',Menlo,Consolas,monospace">
+    <text x="60" y="92" fill="#191d24">a = ( 2 ,&#160; 3 ,&#160; 1 )</text>
+    <text x="60" y="128" fill="#191d24">b = ( 4 ,&#160; 1 ,&#160; 5 )</text>
+  </g>
+  <g stroke="#3a45a0" stroke-width="1.4" fill="none">
+    <path d="M132 100 V116"/><path d="M186 100 V116"/><path d="M238 100 V116"/>
+  </g>
+  <text x="60" y="176" font-size="17" fill="#3a45a0" font-family="'SF Mono',Menlo,Consolas,monospace">2×4 + 3×1 + 1×5</text>
+  <text x="60" y="212" font-size="20" fill="#0f7864" font-family="'SF Mono',Menlo,Consolas,monospace">= 8 + 3 + 5 = 16</text>
+
+  <rect x="400" y="66" width="366" height="160" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="420" y="96" font-size="14" fill="#3a45a0">중요한 점 하나</text>
+  <text x="420" y="128" font-size="13.5" fill="#191d24">벡터 두 개를 넣었는데</text>
+  <text x="420" y="152" font-size="13.5" fill="#191d24">나온 건 <tspan fill="#0f7864">숫자 하나</tspan>입니다.</text>
+  <text x="420" y="186" font-size="12.5" fill="#4d5561">그래서 “두 벡터가 얼마나 닮았는가”를</text>
+  <text x="420" y="206" font-size="12.5" fill="#4d5561">점수 하나로 표현할 수 있습니다.</text>
+
+  <text x="30" y="246" font-size="13" fill="#7b838d">파이썬으로는 &#160;np.dot(a, b) &#160;또는&#160; a @ b</text>
+</svg>

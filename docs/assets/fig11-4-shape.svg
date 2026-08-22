@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">딥러닝에서 가장 자주 보는 에러 — shape만 읽을 줄 알면 바로 고칩니다</text>
+
+  <rect x="30" y="56" width="738" height="46" rx="4" fill="#191d24"/>
+  <text x="50" y="84" font-size="13.5" fill="#ff9d8a" font-family="'SF Mono',Menlo,Consolas,monospace">RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x784 and 128x64)</text>
+
+  <g font-family="'SF Mono',Menlo,Consolas,monospace">
+    <text x="200" y="152" font-size="22" fill="#191d24">(32 × <tspan fill="#a2661c">784</tspan>)</text>
+    <text x="330" y="152" font-size="20" fill="#191d24">×</text>
+    <text x="370" y="152" font-size="22" fill="#191d24">(<tspan fill="#a2661c">128</tspan> × 64)</text>
+  </g>
+  <path d="M262 162 C280 190, 360 190, 382 162" stroke="#a2661c" stroke-width="1.8" fill="none"/>
+  <text x="322" y="208" font-size="13.5" fill="#a2661c" text-anchor="middle">이 두 숫자가 같아야 합니다 (784 ≠ 128)</text>
+
+  <rect x="30" y="228" width="360" height="56" rx="4" fill="#ffffff" stroke="#0f7864"/>
+  <text x="210" y="252" font-size="13.5" fill="#0f7864" text-anchor="middle">규칙: (a × <tspan font-weight="bold">n</tspan>) × (<tspan font-weight="bold">n</tspan> × b) = (a × b)</text>
+  <text x="210" y="274" font-size="12.5" fill="#4d5561" text-anchor="middle">안쪽 두 개가 만나서 사라지고, 바깥 두 개가 남습니다</text>
+
+  <rect x="410" y="228" width="358" height="56" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="589" y="252" font-size="13.5" fill="#3a45a0" text-anchor="middle">(32 × 784) × (784 × 128) = (32 × 128)</text>
+  <text x="589" y="274" font-size="12.5" fill="#4d5561" text-anchor="middle">데이터 32건이 항목 784개 → 128개로 바뀐 것</text>
+</svg>

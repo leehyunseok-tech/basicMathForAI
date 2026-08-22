@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">벡터 = 숫자 여러 개를 순서대로 묶은 것. 2개짜리는 화살표로 그릴 수 있습니다.</text>
+
+  <g stroke="#e4e7df" stroke-width="1">
+    <line x1="140" y1="80" x2="140" y2="256"/><line x1="200" y1="80" x2="200" y2="256"/>
+    <line x1="260" y1="80" x2="260" y2="256"/><line x1="320" y1="80" x2="320" y2="256"/>
+    <line x1="80" y1="100" x2="380" y2="100"/><line x1="80" y1="140" x2="380" y2="140"/>
+    <line x1="80" y1="180" x2="380" y2="180"/>
+  </g>
+  <line x1="80" y1="220" x2="390" y2="220" stroke="#191d24" stroke-width="1.6"/>
+  <line x1="80" y1="256" x2="80" y2="76" stroke="#191d24" stroke-width="1.6"/>
+  <g font-size="11.5" fill="#7b838d" text-anchor="middle">
+    <text x="140" y="238">1</text><text x="200" y="238">2</text><text x="260" y="238">3</text><text x="320" y="238">4</text>
+  </g>
+  <g font-size="11.5" fill="#7b838d" text-anchor="end">
+    <text x="72" y="184">1</text><text x="72" y="144">2</text><text x="72" y="104">3</text>
+  </g>
+
+  <line x1="80" y1="220" x2="252" y2="148" stroke="#3a45a0" stroke-width="3"/>
+  <path d="M262 144 L244 142 L250 156 z" fill="#3a45a0"/>
+  <text x="180" y="168" font-size="15" fill="#3a45a0">x</text>
+
+  <line x1="80" y1="220" x2="140" y2="220" stroke="#0f7864" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="260" y1="220" x2="260" y2="140" stroke="#0f7864" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="80" y1="220" x2="260" y2="220" stroke="#0f7864" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="170" y="240" font-size="12" fill="#0f7864" text-anchor="middle">가로 3</text>
+  <text x="272" y="184" font-size="12" fill="#0f7864">세로 2</text>
+
+  <rect x="430" y="86" width="336" height="146" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="450" y="116" font-size="14.5" fill="#191d24">쓰는 법은 여러 가지, 뜻은 하나</text>
+  <text x="450" y="150" font-size="16" fill="#3a45a0" font-family="'SF Mono',Menlo,Consolas,monospace">x = (3, 2)</text>
+  <text x="450" y="178" font-size="16" fill="#3a45a0" font-family="'SF Mono',Menlo,Consolas,monospace">x = [3, 2]</text>
+  <text x="450" y="212" font-size="13" fill="#7b838d">파이썬 리스트와 똑같습니다. 순서가 중요합니다.</text>
+
+  <text x="30" y="288" font-size="13" fill="#7b838d">Chapter 03의 “점 (3,2)”와 같은 숫자지만, 벡터는 <tspan fill="#3a45a0">원점에서 그 점까지 가는 화살표</tspan>로 봅니다.</text>
+</svg>

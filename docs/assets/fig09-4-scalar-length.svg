@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">스칼라 곱은 길이만 바꿉니다 (방향은 그대로) · 길이는 피타고라스로 잽니다</text>
+
+  <g>
+    <rect x="30" y="56" width="360" height="196" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="60" y1="226" x2="370" y2="226" stroke="#191d24" stroke-width="1.3"/>
+    <line x1="60" y1="240" x2="60" y2="76" stroke="#191d24" stroke-width="1.3"/>
+    <line x1="60" y1="226" x2="140" y2="186" stroke="#3a45a0" stroke-width="2.6"/>
+    <path d="M148 182 L132 180 L137 193 z" fill="#3a45a0"/>
+    <text x="104" y="212" font-size="12.5" fill="#3a45a0">x</text>
+    <line x1="60" y1="226" x2="290" y2="111" stroke="#0f7864" stroke-width="2.2" stroke-dasharray="6 4"/>
+    <path d="M298 107 L282 105 L287 118 z" fill="#0f7864"/>
+    <text x="238" y="128" font-size="12.5" fill="#0f7864">3x (3배 길게)</text>
+    <line x1="60" y1="226" x2="20" y2="246" stroke="#a2661c" stroke-width="2.2"/>
+    <text x="80" y="252" font-size="12.5" fill="#a2661c">−x (반대 방향)</text>
+    <text x="210" y="80" font-size="13" fill="#191d24" text-anchor="middle">3 × (2,1) = (6,3)</text>
+  </g>
+
+  <g>
+    <rect x="420" y="56" width="350" height="196" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="595" y="86" font-size="13.5" fill="#3a45a0" text-anchor="middle">벡터의 길이 (크기)</text>
+    <line x1="470" y1="204" x2="590" y2="204" stroke="#0f7864" stroke-width="1.6"/>
+    <line x1="590" y1="204" x2="590" y2="144" stroke="#0f7864" stroke-width="1.6"/>
+    <line x1="470" y1="204" x2="590" y2="144" stroke="#3a45a0" stroke-width="2.6"/>
+    <text x="530" y="222" font-size="12" fill="#0f7864" text-anchor="middle">3</text>
+    <text x="600" y="178" font-size="12" fill="#0f7864">2</text>
+    <text x="500" y="164" font-size="12.5" fill="#3a45a0">길이 ?</text>
+    <text x="680" y="150" font-size="14" fill="#191d24" text-anchor="middle">√(3² + 2²)</text>
+    <text x="680" y="178" font-size="14" fill="#191d24" text-anchor="middle">= √13 ≈ 3.6</text>
+    <text x="595" y="242" font-size="12.5" fill="#3a45a0" text-anchor="middle">Chapter 02의 루트가 여기서 쓰입니다</text>
+  </g>
+</svg>

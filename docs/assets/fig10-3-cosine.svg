@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">내적에는 함정이 하나 있습니다 — 길이가 길면 무조건 점수가 커집니다</text>
+
+  <rect x="30" y="56" width="352" height="170" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="206" y="84" font-size="13.5" fill="#a2661c" text-anchor="middle">문제</text>
+  <text x="50" y="116" font-size="13" fill="#191d24">긴 문서는 단어가 많아서 벡터가 깁니다.</text>
+  <text x="50" y="140" font-size="13" fill="#191d24">그럼 내용과 상관없이 내적이 커집니다.</text>
+  <text x="50" y="174" font-size="13" fill="#a2661c">“길다”와 “비슷하다”가 섞여버립니다.</text>
+  <text x="50" y="202" font-size="12.5" fill="#7b838d">우리가 알고 싶은 건 방향인데 말이죠.</text>
+
+  <rect x="416" y="56" width="352" height="170" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="592" y="84" font-size="13.5" fill="#3a45a0" text-anchor="middle">해결 — 길이로 나눠 버린다</text>
+  <text x="592" y="126" font-size="17" fill="#191d24" text-anchor="middle">내적 ÷ (길이 a × 길이 b)</text>
+  <text x="592" y="166" font-size="13" fill="#4d5561" text-anchor="middle">길이의 영향이 사라지고</text>
+  <text x="592" y="190" font-size="13" fill="#3a45a0" text-anchor="middle">순수하게 “방향이 얼마나 같은가”만 남습니다</text>
+  <text x="592" y="214" font-size="12.5" fill="#7b838d" text-anchor="middle">이게 코사인 유사도입니다</text>
+
+  <g font-size="13">
+    <rect x="30" y="242" width="738" height="30" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="50" y="262" fill="#191d24">결과는 항상 −1 ~ 1 사이 · &#160;</text>
+    <text x="240" y="262" fill="#0f7864">1 = 똑같은 방향</text>
+    <text x="380" y="262" fill="#7b838d">0 = 무관</text>
+    <text x="490" y="262" fill="#a2661c">−1 = 정반대</text>
+  </g>
+</svg>

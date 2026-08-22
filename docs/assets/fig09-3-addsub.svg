@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">덧셈은 “화살표를 이어 붙이기”, 계산은 “같은 자리끼리 더하기”</text>
+
+  <g>
+    <line x1="70" y1="220" x2="360" y2="220" stroke="#191d24" stroke-width="1.4"/>
+    <line x1="70" y1="240" x2="70" y2="70" stroke="#191d24" stroke-width="1.4"/>
+    <line x1="70" y1="220" x2="160" y2="184" stroke="#3a45a0" stroke-width="2.6"/>
+    <path d="M168 181 L152 178 L157 191 z" fill="#3a45a0"/>
+    <text x="106" y="196" font-size="13" fill="#3a45a0">a</text>
+    <line x1="160" y1="184" x2="220" y2="112" stroke="#0f7864" stroke-width="2.6" stroke-dasharray="5 4"/>
+    <path d="M226 106 L211 111 L220 121 z" fill="#0f7864"/>
+    <text x="196" y="146" font-size="13" fill="#0f7864">b</text>
+    <line x1="70" y1="220" x2="215" y2="115" stroke="#a2661c" stroke-width="3"/>
+    <path d="M224 109 L208 108 L212 122 z" fill="#a2661c"/>
+    <text x="112" y="140" font-size="13" fill="#a2661c">a + b</text>
+    <text x="215" y="262" font-size="12.5" fill="#7b838d" text-anchor="middle">a 끝에서 b만큼 더 가면 = a+b</text>
+  </g>
+
+  <rect x="410" y="72" width="356" height="170" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="430" y="102" font-size="14" fill="#3a45a0">계산은 이보다 더 쉽습니다</text>
+  <text x="430" y="140" font-size="16" fill="#191d24" font-family="'SF Mono',Menlo,Consolas,monospace">(3, 2) + (2, 4)</text>
+  <text x="430" y="170" font-size="16" fill="#191d24" font-family="'SF Mono',Menlo,Consolas,monospace">= (3+2, 2+4) = (5, 6)</text>
+  <text x="430" y="206" font-size="13" fill="#4d5561">첫째는 첫째끼리, 둘째는 둘째끼리.</text>
+  <text x="430" y="228" font-size="13" fill="#4d5561">784개짜리도 방식은 똑같습니다.</text>
+</svg>

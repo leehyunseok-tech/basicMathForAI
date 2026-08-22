@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">내적의 부호만 봐도 두 벡터의 관계를 알 수 있습니다</text>
+
+  <g>
+    <rect x="30" y="56" width="240" height="150" rx="4" fill="#ffffff" stroke="#0f7864"/>
+    <line x1="90" y1="170" x2="90" y2="170" stroke="#191d24"/>
+    <line x1="70" y1="170" x2="230" y2="170" stroke="#d6dad1" stroke-width="1"/>
+    <line x1="90" y1="170" x2="200" y2="120" stroke="#3a45a0" stroke-width="2.6"/>
+    <path d="M208 116 L192 114 L197 127 z" fill="#3a45a0"/>
+    <line x1="90" y1="170" x2="190" y2="98" stroke="#0f7864" stroke-width="2.6"/>
+    <path d="M198 93 L182 92 L187 105 z" fill="#0f7864"/>
+    <text x="150" y="196" font-size="13.5" fill="#0f7864" text-anchor="middle">비슷한 방향 → <tspan font-weight="bold">양수</tspan></text>
+  </g>
+  <g>
+    <rect x="286" y="56" width="240" height="150" rx="4" fill="#ffffff" stroke="#7b838d"/>
+    <line x1="346" y1="170" x2="486" y2="170" stroke="#d6dad1" stroke-width="1"/>
+    <line x1="346" y1="170" x2="466" y2="170" stroke="#3a45a0" stroke-width="2.6"/>
+    <path d="M474 170 L458 164 L458 176 z" fill="#3a45a0"/>
+    <line x1="346" y1="170" x2="346" y2="82" stroke="#0f7864" stroke-width="2.6"/>
+    <path d="M346 74 L340 90 L352 90 z" fill="#0f7864"/>
+    <path d="M346 156 H360 V170" stroke="#7b838d" stroke-width="1.2" fill="none"/>
+    <text x="406" y="196" font-size="13.5" fill="#7b838d" text-anchor="middle">직각(무관) → <tspan font-weight="bold">0</tspan></text>
+  </g>
+  <g>
+    <rect x="542" y="56" width="228" height="150" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <line x1="656" y1="170" x2="756" y2="170" stroke="#d6dad1" stroke-width="1"/>
+    <line x1="556" y1="170" x2="656" y2="170" stroke="#d6dad1" stroke-width="1"/>
+    <line x1="656" y1="170" x2="746" y2="126" stroke="#3a45a0" stroke-width="2.6"/>
+    <path d="M754 122 L738 120 L743 133 z" fill="#3a45a0"/>
+    <line x1="656" y1="170" x2="566" y2="126" stroke="#a2661c" stroke-width="2.6"/>
+    <path d="M558 122 L574 120 L569 133 z" fill="#a2661c"/>
+    <text x="656" y="196" font-size="13.5" fill="#a2661c" text-anchor="middle">반대 방향 → <tspan font-weight="bold">음수</tspan></text>
+  </g>
+
+  <text x="30" y="238" font-size="13.5" fill="#191d24">숫자 하나로 “같은 편인가, 상관없는가, 반대편인가”를 판단합니다. AI가 유사도를 재는 방식이 이겁니다.</text>
+</svg>

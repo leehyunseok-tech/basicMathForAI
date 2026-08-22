@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="238" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">입력 구멍이 여러 개여도 함수입니다 — 출력이 하나로 정해지기만 하면 됩니다</text>
+
+  <g font-size="14" fill="#3a45a0" text-anchor="end">
+    <text x="150" y="92">면적</text>
+    <text x="150" y="126">방 개수</text>
+    <text x="150" y="160">역까지 거리</text>
+  </g>
+  <g stroke="#191d24" stroke-width="1.6" fill="none">
+    <path d="M162 87 L268 118"/><path d="M162 121 L268 122"/><path d="M162 155 L268 128"/>
+  </g>
+
+  <rect x="278" y="82" width="230" height="82" rx="6" fill="#e5e7f4" stroke="#3a45a0" stroke-width="2"/>
+  <text x="393" y="118" font-size="15" fill="#191d24" text-anchor="middle">집값 예측 모델</text>
+  <text x="393" y="144" font-size="13" fill="#3a45a0" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">f(x₁, x₂, x₃)</text>
+
+  <path d="M518 122 H590" stroke="#191d24" stroke-width="1.8"/><path d="M584 117 L592 122 L584 127 z" fill="#191d24"/>
+  <text x="672" y="128" font-size="18" fill="#0f7864" text-anchor="middle">예상 가격</text>
+
+  <text x="30" y="210" font-size="13.5" fill="#191d24">AI 모델은 대부분 이쪽입니다. 입력이 3개가 아니라 <tspan fill="#3a45a0">784개, 768개</tspan> 일 뿐입니다.</text>
+  <text x="30" y="230" font-size="13" fill="#7b838d">그래서 Part 3에서 “숫자 여러 개를 한 덩어리로 묶는 법(벡터)”을 배웁니다.</text>
+</svg>

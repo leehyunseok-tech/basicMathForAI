@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">확률을 계속 곱하면 컴퓨터가 0으로 뭉개버립니다. 로그가 이걸 막아줍니다.</text>
+
+  <g>
+    <rect x="30" y="58" width="350" height="152" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="205" y="86" font-size="13.5" fill="#a2661c" text-anchor="middle">그냥 곱하면</text>
+    <text x="205" y="116" font-size="14" fill="#191d24" text-anchor="middle">0.1 × 0.2 × 0.1 × 0.3 × ...</text>
+    <text x="205" y="146" font-size="14" fill="#7b838d" text-anchor="middle">단어 100개면 0.000...0001</text>
+    <text x="205" y="178" font-size="14" fill="#a2661c" text-anchor="middle">컴퓨터: “이거 그냥 0인데요”</text>
+  </g>
+
+  <g>
+    <rect x="420" y="58" width="350" height="152" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="595" y="86" font-size="13.5" fill="#3a45a0" text-anchor="middle">로그를 씌우면</text>
+    <text x="595" y="116" font-size="14" fill="#191d24" text-anchor="middle">log0.1 + log0.2 + log0.1 + ...</text>
+    <text x="595" y="146" font-size="14" fill="#7b838d" text-anchor="middle">= (−1) + (−0.7) + (−1) + ...</text>
+    <text x="595" y="178" font-size="14" fill="#0f7864" text-anchor="middle">곱셈이 덧셈으로 → 안전합니다</text>
+  </g>
+
+  <text x="30" y="238" font-size="13" fill="#7b838d">로그의 진짜 능력: <tspan fill="#3a45a0">곱셈을 덧셈으로 바꾼다.</tspan> 크로스엔트로피 손실에 log가 있는 이유가 이것입니다.</text>
+</svg>

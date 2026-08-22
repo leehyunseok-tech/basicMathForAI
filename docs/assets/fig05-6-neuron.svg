@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">같은 식, 다른 이름 — AI 교재는 a와 b를 이렇게 부릅니다</text>
+
+  <rect x="40" y="60" width="330" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="205" y="92" font-size="13" fill="#7b838d" text-anchor="middle">수학 시간에는</text>
+  <text x="205" y="132" font-size="25" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">y = ax + b</text>
+  <text x="120" y="168" font-size="13" fill="#0f7864" text-anchor="middle">a = 기울기</text>
+  <text x="285" y="168" font-size="13" fill="#a2661c" text-anchor="middle">b = 절편</text>
+  <text x="205" y="194" font-size="12.5" fill="#7b838d" text-anchor="middle">사람이 계산해서 정합니다</text>
+
+  <text x="392" y="140" font-size="22" fill="#3a45a0" text-anchor="middle">=</text>
+
+  <rect x="414" y="60" width="346" height="150" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="587" y="92" font-size="13" fill="#3a45a0" text-anchor="middle">AI 교재에서는</text>
+  <text x="587" y="132" font-size="25" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">y = wx + b</text>
+  <text x="500" y="168" font-size="13" fill="#0f7864" text-anchor="middle">w = 가중치 (weight)</text>
+  <text x="675" y="168" font-size="13" fill="#a2661c" text-anchor="middle">b = 편향 (bias)</text>
+  <text x="587" y="194" font-size="12.5" fill="#3a45a0" text-anchor="middle">기계가 데이터를 보고 찾아냅니다</text>
+
+  <text x="30" y="240" font-size="13.5" fill="#191d24">글자만 a → w 로 바뀌었을 뿐, <tspan fill="#3a45a0">완전히 같은 식</tspan>입니다.</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">“x가 어깨 위로 올라가면” 완전히 다른 세상이 됩니다</text>
+
+  <line x1="80" y1="250" x2="470" y2="250" stroke="#191d24" stroke-width="1.6"/>
+  <line x1="80" y1="250" x2="80" y2="66" stroke="#191d24" stroke-width="1.6"/>
+  <text x="478" y="254" font-size="13" fill="#191d24">x</text>
+
+  <line x1="80" y1="250" x2="440" y2="196" stroke="#7b838d" stroke-width="2.2"/>
+  <text x="330" y="192" font-size="13" fill="#7b838d">y = 2x &#160;(곱하기 2)</text>
+
+  <path d="M80 246 C200 240, 300 210, 360 150 C400 110, 420 90, 436 74" fill="none" stroke="#3a45a0" stroke-width="2.8"/>
+  <text x="300" y="112" font-size="13" fill="#3a45a0">y = 2&#8339; &#160;(2의 x제곱)</text>
+
+  <rect x="510" y="72" width="258" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="530" y="102" font-size="14.5" fill="#191d24">x = 10 일 때</text>
+  <text x="530" y="136" font-size="14" fill="#7b838d">2x &#160;&#8594; &#160;20</text>
+  <text x="530" y="166" font-size="14" fill="#3a45a0">2&#8339; &#160;&#8594; &#160;1,024</text>
+  <text x="530" y="200" font-size="14.5" fill="#191d24">x = 20 일 때</text>
+  <text x="530" y="230" font-size="14" fill="#3a45a0">2&#8339; &#160;&#8594; &#160;1,048,576</text>
+
+  <text x="30" y="286" font-size="13" fill="#7b838d">위치 하나 바뀌었을 뿐인데, 결과는 비교가 안 됩니다. 이게 지수함수입니다.</text>
+</svg>

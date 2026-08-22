@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">로그는 지수의 “되돌리기 버튼”입니다 — 루트가 제곱을 되돌렸던 것과 같은 관계</text>
+
+  <rect x="60" y="66" width="300" height="70" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="210" y="98" font-size="13" fill="#4d5561" text-anchor="middle">2를 몇 번 곱해야 8이 될까?</text>
+  <text x="210" y="122" font-size="17" fill="#191d24" text-anchor="middle">2<tspan font-size="12" dy="-6">?</tspan><tspan dy="6"> = 8</tspan></text>
+
+  <path d="M390 100 H440" stroke="#3a45a0" stroke-width="2"/><path d="M434 94 L442 100 L434 106 z" fill="#3a45a0"/>
+
+  <rect x="460" y="66" width="300" height="70" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="610" y="98" font-size="13" fill="#3a45a0" text-anchor="middle">그 “?”를 구하는 게 로그입니다</text>
+  <text x="610" y="122" font-size="17" fill="#191d24" text-anchor="middle">log₂8 = 3</text>
+
+  <g font-size="13.5">
+    <rect x="60" y="158" width="700" height="30" fill="#191d24"/>
+    <text x="90" y="179" fill="#ffffff" font-size="12.5">지수로 보면</text>
+    <text x="330" y="179" fill="#ffffff" font-size="12.5">로그로 보면</text>
+    <text x="560" y="179" fill="#ffffff" font-size="12.5">말로 하면</text>
+
+    <rect x="60" y="188" width="700" height="28" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="90" y="207" fill="#191d24">2² = 4</text><text x="330" y="207" fill="#3a45a0">log₂4 = 2</text><text x="560" y="207" fill="#4d5561">2를 2번 곱하면 4</text>
+    <rect x="60" y="216" width="700" height="28" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="90" y="235" fill="#191d24">10³ = 1000</text><text x="330" y="235" fill="#3a45a0">log₁₀1000 = 3</text><text x="560" y="235" fill="#4d5561">1000은 0이 3개</text>
+  </g>
+  <text x="60" y="266" font-size="13" fill="#7b838d">즉 로그는 “자릿수를 재는 자”라고 생각해도 좋습니다.</text>
+</svg>

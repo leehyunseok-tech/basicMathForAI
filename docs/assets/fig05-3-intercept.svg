@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">절편 b는 기울기를 건드리지 않고 직선을 통째로 위아래로 옮깁니다</text>
+
+  <line x1="70" y1="200" x2="450" y2="200" stroke="#191d24" stroke-width="1.6"/>
+  <line x1="70" y1="220" x2="70" y2="70" stroke="#191d24" stroke-width="1.6"/>
+  <text x="460" y="204" font-size="13" fill="#191d24">x</text>
+
+  <line x1="70" y1="180" x2="420" y2="88" stroke="#7b838d" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <circle cx="70" cy="180" r="5" fill="#7b838d"/>
+  <text x="430" y="86" font-size="12.5" fill="#7b838d">b = 1</text>
+
+  <line x1="70" y1="140" x2="420" y2="48" stroke="#3a45a0" stroke-width="2.6"/>
+  <circle cx="70" cy="140" r="5" fill="#3a45a0"/>
+  <text x="430" y="48" font-size="12.5" fill="#3a45a0">b = 3</text>
+
+  <line x1="70" y1="200" x2="393" y2="115" stroke="#a2661c" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <circle cx="70" cy="200" r="5" fill="#a2661c"/>
+  <text x="403" y="120" font-size="12.5" fill="#a2661c">b = 0</text>
+
+  <path d="M46 196 V144" stroke="#0f7864" stroke-width="1.6"/>
+  <path d="M46 148 L42 156 L50 156 z" fill="#0f7864"/>
+  <text x="38" y="176" font-size="12" fill="#0f7864" text-anchor="end">b</text>
+
+  <rect x="500" y="76" width="266" height="120" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="520" y="106" font-size="14.5" fill="#191d24">기울기는 셋 다 같습니다</text>
+  <text x="520" y="136" font-size="13.5" fill="#4d5561">b만 바뀌면 → 평행하게 이동</text>
+  <text x="520" y="164" font-size="13.5" fill="#4d5561">a만 바뀌면 → 각도가 바뀜</text>
+  <text x="520" y="186" font-size="12.5" fill="#7b838d">두 손잡이는 서로 간섭하지 않습니다.</text>
+</svg>

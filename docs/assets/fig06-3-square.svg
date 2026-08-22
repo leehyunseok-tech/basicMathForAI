@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">제곱하면 부호가 사라집니다 — 상쇄 문제가 해결됩니다</text>
+
+  <g>
+    <rect x="30" y="58" width="350" height="152" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="205" y="86" font-size="13.5" fill="#a2661c" text-anchor="middle">그냥 더하면</text>
+    <text x="205" y="122" font-size="16" fill="#191d24" text-anchor="middle">(+3) + (−3) + (+2) + (−2)</text>
+    <text x="205" y="156" font-size="22" fill="#a2661c" text-anchor="middle">= 0</text>
+    <text x="205" y="186" font-size="12.5" fill="#7b838d" text-anchor="middle">“하나도 안 틀렸다”는 잘못된 결론</text>
+  </g>
+
+  <g>
+    <rect x="420" y="58" width="350" height="152" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="595" y="86" font-size="13.5" fill="#3a45a0" text-anchor="middle">제곱해서 더하면</text>
+    <text x="595" y="122" font-size="16" fill="#191d24" text-anchor="middle">3² + (−3)² + 2² + (−2)²</text>
+    <text x="595" y="156" font-size="22" fill="#0f7864" text-anchor="middle">= 9 + 9 + 4 + 4 = 26</text>
+    <text x="595" y="186" font-size="12.5" fill="#3a45a0" text-anchor="middle">틀린 만큼 정직하게 쌓입니다</text>
+  </g>
+
+  <text x="30" y="238" font-size="13" fill="#7b838d">보너스: 크게 틀린 오차는 제곱하면 훨씬 커집니다 (10 → 100). 큰 실수에 더 민감해집니다.</text>
+</svg>

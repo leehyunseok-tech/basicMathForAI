@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="238" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">함수는 “넣으면 나오는 상자”입니다. 이 그림 하나가 이 장의 전부입니다.</text>
+
+  <text x="120" y="130" font-size="34" fill="#3a45a0" text-anchor="middle">3</text>
+  <text x="120" y="162" font-size="13" fill="#7b838d" text-anchor="middle">입력</text>
+  <path d="M158 120 H248" stroke="#191d24" stroke-width="2"/>
+  <path d="M242 114 L250 120 L242 126 z" fill="#191d24"/>
+
+  <rect x="258" y="70" width="270" height="100" rx="6" fill="#e5e7f4" stroke="#3a45a0" stroke-width="2"/>
+  <text x="393" y="112" font-size="19" fill="#191d24" text-anchor="middle">2배 하고 1 더하기</text>
+  <text x="393" y="142" font-size="15" fill="#3a45a0" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">f(x) = 2x + 1</text>
+
+  <path d="M540 120 H630" stroke="#191d24" stroke-width="2"/>
+  <path d="M624 114 L632 120 L624 126 z" fill="#191d24"/>
+  <text x="680" y="130" font-size="34" fill="#0f7864" text-anchor="middle">7</text>
+  <text x="680" y="162" font-size="13" fill="#7b838d" text-anchor="middle">출력</text>
+
+  <text x="30" y="206" font-size="13.5" fill="#191d24">규칙은 딱 하나: <tspan fill="#3a45a0">같은 걸 넣으면 항상 같은 게 나온다.</tspan></text>
+  <text x="30" y="228" font-size="13" fill="#7b838d">3을 넣었는데 어떨 땐 7, 어떨 땐 9가 나오면 그건 함수가 아닙니다.</text>
+</svg>

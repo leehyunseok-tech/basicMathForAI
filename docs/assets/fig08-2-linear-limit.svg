@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">딥러닝의 결정적 문제 — 직선을 아무리 쌓아도 결국 직선입니다</text>
+
+  <rect x="30" y="58" width="440" height="168" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="250" y="88" font-size="13.5" fill="#a2661c" text-anchor="middle">직선 함수 두 개를 이어 붙이면</text>
+  <text x="250" y="122" font-size="15" fill="#191d24" text-anchor="middle">f(x) = 2x + 1 &#160;&#160;&#160; g(x) = 3x + 4</text>
+  <text x="250" y="156" font-size="15" fill="#191d24" text-anchor="middle">g(f(x)) = 3(2x + 1) + 4 = <tspan fill="#a2661c">6x + 7</tspan></text>
+  <text x="250" y="192" font-size="13.5" fill="#a2661c" text-anchor="middle">→ 또 직선입니다. 100층을 쌓아도 직선.</text>
+
+  <rect x="500" y="58" width="270" height="168" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="635" y="88" font-size="13.5" fill="#3a45a0" text-anchor="middle">그런데 세상은 직선이 아닙니다</text>
+  <line x1="524" y1="196" x2="750" y2="196" stroke="#191d24" stroke-width="1.2"/>
+  <line x1="524" y1="196" x2="524" y2="104" stroke="#191d24" stroke-width="1.2"/>
+  <path d="M528 186 C560 120, 600 190, 640 130 C670 88, 710 150, 746 116" fill="none" stroke="#0f7864" stroke-width="2.4"/>
+  <text x="635" y="216" font-size="12.5" fill="#0f7864" text-anchor="middle">직선으로는 이런 걸 못 만듭니다</text>
+
+  <text x="30" y="248" font-size="13.5" fill="#191d24">그래서 층 사이에 <tspan fill="#3a45a0">“구부리는 함수”</tspan>를 하나씩 끼워 넣습니다. 그게 활성화 함수입니다.</text>
+</svg>

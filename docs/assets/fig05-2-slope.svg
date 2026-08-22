@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">기울기 a 하나만 바꿔 보면 — 부호는 방향, 크기는 가파름</text>
+
+  <g>
+    <rect x="30" y="56" width="176" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="52" y1="180" x2="188" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="52" y1="180" x2="52" y2="74" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="52" y1="170" x2="182" y2="140" stroke="#3a45a0" stroke-width="2.4"/>
+    <text x="118" y="102" font-size="15" fill="#3a45a0" text-anchor="middle">a = 0.5</text>
+    <text x="118" y="228" font-size="13" fill="#191d24" text-anchor="middle">천천히 오름</text>
+  </g>
+  <g>
+    <rect x="218" y="56" width="176" height="150" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <line x1="240" y1="180" x2="376" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="240" y1="180" x2="240" y2="74" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="240" y1="176" x2="340" y2="80" stroke="#3a45a0" stroke-width="2.4"/>
+    <text x="330" y="132" font-size="15" fill="#3a45a0" text-anchor="middle">a = 3</text>
+    <text x="306" y="228" font-size="13" fill="#191d24" text-anchor="middle">가파르게 오름</text>
+  </g>
+  <g>
+    <rect x="406" y="56" width="176" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="428" y1="180" x2="564" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="428" y1="180" x2="428" y2="74" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="428" y1="88" x2="556" y2="172" stroke="#a2661c" stroke-width="2.4"/>
+    <text x="510" y="112" font-size="15" fill="#a2661c" text-anchor="middle">a = −1.5</text>
+    <text x="494" y="228" font-size="13" fill="#191d24" text-anchor="middle">내려감</text>
+  </g>
+  <g>
+    <rect x="594" y="56" width="176" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="616" y1="180" x2="752" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="616" y1="180" x2="616" y2="74" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="616" y1="130" x2="748" y2="130" stroke="#7b838d" stroke-width="2.4"/>
+    <text x="690" y="112" font-size="15" fill="#7b838d" text-anchor="middle">a = 0</text>
+    <text x="682" y="228" font-size="13" fill="#191d24" text-anchor="middle">그대로 (관계 없음)</text>
+  </g>
+</svg>

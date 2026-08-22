@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">점들 사이에 선을 하나 그으면, 데이터에 없는 값도 예측할 수 있습니다</text>
+
+  <line x1="70" y1="230" x2="470" y2="230" stroke="#191d24" stroke-width="1.6"/>
+  <line x1="70" y1="230" x2="70" y2="66" stroke="#191d24" stroke-width="1.6"/>
+  <text x="270" y="256" font-size="12.5" fill="#191d24" text-anchor="middle">공부 시간</text>
+  <text x="56" y="60" font-size="12.5" fill="#191d24" text-anchor="middle">점수</text>
+
+  <line x1="86" y1="205" x2="440" y2="88" stroke="#3a45a0" stroke-width="2.6"/>
+
+  <g fill="#191d24">
+    <circle cx="110" cy="208" r="5"/><circle cx="150" cy="188" r="5"/><circle cx="190" cy="182" r="5"/>
+    <circle cx="230" cy="158" r="5"/><circle cx="270" cy="152" r="5"/><circle cx="310" cy="128" r="5"/>
+    <circle cx="350" cy="122" r="5"/><circle cx="390" cy="100" r="5"/>
+  </g>
+
+  <line x1="330" y1="230" x2="330" y2="118" stroke="#0f7864" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="70" y1="118" x2="330" y2="118" stroke="#0f7864" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="330" cy="118" r="6.5" fill="#0f7864"/>
+  <text x="342" y="112" font-size="12.5" fill="#0f7864">5시간이면 이쯤</text>
+  <text x="330" y="248" font-size="12" fill="#0f7864" text-anchor="middle">5시간</text>
+
+  <rect x="510" y="80" width="258" height="140" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="530" y="110" font-size="14.5" fill="#191d24">이게 예측입니다</text>
+  <text x="530" y="140" font-size="13.5" fill="#4d5561">데이터에 “5시간” 학생은 없지만</text>
+  <text x="530" y="164" font-size="13.5" fill="#4d5561">선 위의 높이를 읽으면 됩니다.</text>
+  <text x="530" y="196" font-size="13" fill="#3a45a0">이 방법의 이름이 선형회귀입니다.</text>
+</svg>

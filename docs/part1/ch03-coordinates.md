@@ -214,4 +214,4 @@ AI를 학습시키면 **반드시** 보게 되는 그래프가 하나 있습니�
 
 | ⬅️ 이전 | 다음 ➡️ |
 |---|---|
-| [Chapter 02. 수식을 읽는 최소한의 약속](ch02-reading-notation.md) | Chapter 04. 함수 — 입력과 출력의 상자 *(집필 예정)* |
+| [Chapter 02. 수식을 읽는 최소한의 약속](ch02-reading-notation.md) | [Chapter 04. 함수 — 입력과 출력의 상자](../part2/ch04-function.md) |

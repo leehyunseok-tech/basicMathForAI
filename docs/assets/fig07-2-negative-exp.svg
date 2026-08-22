@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">어깨 위에 음수나 소수가 올라와도 규칙은 하나입니다 — “한 칸 갈 때마다 2배”</text>
+
+  <g font-size="15" text-anchor="middle">
+    <rect x="34" y="66" width="104" height="72" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="86" y="96" fill="#191d24">2⁻²</text><text x="86" y="124" fill="#7b838d">0.25</text>
+    <rect x="150" y="66" width="104" height="72" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="202" y="96" fill="#191d24">2⁻¹</text><text x="202" y="124" fill="#7b838d">0.5</text>
+    <rect x="266" y="66" width="104" height="72" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="318" y="96" fill="#3a45a0">2⁰</text><text x="318" y="124" fill="#3a45a0">1</text>
+    <rect x="382" y="66" width="104" height="72" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="434" y="96" fill="#191d24">2¹</text><text x="434" y="124" fill="#7b838d">2</text>
+    <rect x="498" y="66" width="104" height="72" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="550" y="96" fill="#191d24">2²</text><text x="550" y="124" fill="#7b838d">4</text>
+    <rect x="614" y="66" width="104" height="72" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="666" y="96" fill="#191d24">2³</text><text x="666" y="124" fill="#7b838d">8</text>
+  </g>
+  <g stroke="#0f7864" stroke-width="1.5" fill="none">
+    <path d="M138 154 H150"/><path d="M254 154 H266"/><path d="M370 154 H382"/><path d="M486 154 H498"/><path d="M602 154 H614"/>
+  </g>
+  <text x="400" y="178" font-size="13" fill="#0f7864" text-anchor="middle">→ 오른쪽으로 한 칸 = ×2 &#160;/&#160; 왼쪽으로 한 칸 = ÷2</text>
+
+  <rect x="34" y="196" width="684" height="38" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="54" y="220" font-size="13.5" fill="#191d24">2⁰ = 1 인 이유도 여기 있습니다. 2¹(=2)에서 왼쪽으로 한 칸 = 2 ÷ 2 = 1. &#160;그리고 2⁰·⁵ = √2 ≈ 1.414 (1과 2 사이)</text>
+</svg>

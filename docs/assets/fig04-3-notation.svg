@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">f(x) 는 “에프 곱하기 엑스”가 아닙니다. 이 표기를 해부해 봅시다.</text>
+
+  <text x="400" y="112" font-size="42" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">f ( x ) = 2x + 1</text>
+
+  <line x1="258" y1="128" x2="240" y2="168" stroke="#3a45a0" stroke-width="1.4"/>
+  <text x="150" y="186" font-size="13" fill="#3a45a0">상자의 이름</text>
+
+  <line x1="318" y1="128" x2="330" y2="168" stroke="#0f7864" stroke-width="1.4"/>
+  <text x="300" y="186" font-size="13" fill="#0f7864">넣는 것</text>
+
+  <line x1="500" y1="128" x2="540" y2="168" stroke="#a2661c" stroke-width="1.4"/>
+  <text x="520" y="186" font-size="13" fill="#a2661c">상자 안에서 하는 일</text>
+
+  <rect x="30" y="200" width="740" height="34" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="50" y="223" font-size="14" fill="#191d24">읽는 법: “에프 엑스는 이엑스 더하기 일” &#160;·&#160; 코드로는 &#160;</text>
+  <text x="440" y="223" font-size="14" fill="#3a45a0" font-family="'SF Mono',Menlo,Consolas,monospace">def f(x): return 2*x + 1</text>
+</svg>

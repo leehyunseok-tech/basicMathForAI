@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">같은 데이터, 다른 자 — 로그 눈금으로 보면 안 보이던 게 보입니다</text>
+
+  <g>
+    <rect x="30" y="58" width="356" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="208" y="84" font-size="13" fill="#a2661c" text-anchor="middle">보통 눈금</text>
+    <line x1="60" y1="212" x2="360" y2="212" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="60" y1="212" x2="60" y2="96" stroke="#191d24" stroke-width="1.2"/>
+    <path d="M64 100 C110 168, 160 200, 220 206 C270 210, 320 211, 354 211" fill="none" stroke="#3a45a0" stroke-width="2.4"/>
+    <text x="250" y="200" font-size="11.5" fill="#a2661c">여기부터는 평평해 보여서</text>
+    <text x="250" y="216" font-size="11.5" fill="#a2661c">개선되는지 알 수 없음</text>
+  </g>
+
+  <g>
+    <rect x="414" y="58" width="356" height="180" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="592" y="84" font-size="13" fill="#0f7864" text-anchor="middle">로그 눈금</text>
+    <line x1="444" y1="212" x2="744" y2="212" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="444" y1="212" x2="444" y2="96" stroke="#191d24" stroke-width="1.2"/>
+    <g font-size="10" fill="#7b838d" text-anchor="end">
+      <text x="438" y="104">1</text><text x="438" y="140">0.1</text><text x="438" y="176">0.01</text><text x="438" y="210">0.001</text>
+    </g>
+    <line x1="448" y1="100" x2="744" y2="100" stroke="#d6dad1" stroke-dasharray="3 3"/>
+    <line x1="448" y1="136" x2="744" y2="136" stroke="#d6dad1" stroke-dasharray="3 3"/>
+    <line x1="448" y1="172" x2="744" y2="172" stroke="#d6dad1" stroke-dasharray="3 3"/>
+    <path d="M450 102 L744 200" fill="none" stroke="#0f7864" stroke-width="2.4"/>
+    <text x="600" y="180" font-size="11.5" fill="#0f7864">계속 내려가고 있다는 게 보임</text>
+  </g>
+
+  <text x="30" y="266" font-size="13" fill="#7b838d">그래서 학습 곡선은 거의 항상 로그 눈금으로 그립니다. 오차가 0.01에서 0.001로 가는 것도 큰 개선이니까요.</text>
+</svg>

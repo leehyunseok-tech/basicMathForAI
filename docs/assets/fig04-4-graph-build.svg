@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">f(x) = 2x + 1 을 그래프로 — 값을 넣어 점을 찍고, 이으면 끝</text>
+
+  <g>
+    <text x="112" y="66" font-size="13" fill="#3a45a0" text-anchor="middle">① 값을 넣어 본다</text>
+    <rect x="40" y="78" width="144" height="28" fill="#191d24"/>
+    <text x="62" y="97" fill="#ffffff" font-size="12">x</text><text x="126" y="97" fill="#ffffff" font-size="12">f(x)</text>
+    <rect x="40" y="106" width="144" height="26" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="62" y="124" font-size="12.5" fill="#191d24">0</text><text x="126" y="124" font-size="12.5" fill="#4d5561">1</text>
+    <rect x="40" y="132" width="144" height="26" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="62" y="150" font-size="12.5" fill="#191d24">1</text><text x="126" y="150" font-size="12.5" fill="#4d5561">3</text>
+    <rect x="40" y="158" width="144" height="26" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="62" y="176" font-size="12.5" fill="#191d24">2</text><text x="126" y="176" font-size="12.5" fill="#4d5561">5</text>
+    <rect x="40" y="184" width="144" height="26" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="62" y="202" font-size="12.5" fill="#191d24">3</text><text x="126" y="202" font-size="12.5" fill="#4d5561">7</text>
+  </g>
+
+  <path d="M204 145 H244" stroke="#7b838d" stroke-width="1.6"/><path d="M239 140 L246 145 L239 150 z" fill="#7b838d"/>
+
+  <g>
+    <text x="350" y="66" font-size="13" fill="#3a45a0" text-anchor="middle">② 점으로 찍는다</text>
+    <line x1="270" y1="210" x2="440" y2="210" stroke="#191d24" stroke-width="1.4"/>
+    <line x1="270" y1="210" x2="270" y2="80" stroke="#191d24" stroke-width="1.4"/>
+    <circle cx="286" cy="196" r="5" fill="#3a45a0"/>
+    <circle cx="322" cy="168" r="5" fill="#3a45a0"/>
+    <circle cx="358" cy="140" r="5" fill="#3a45a0"/>
+    <circle cx="394" cy="112" r="5" fill="#3a45a0"/>
+  </g>
+
+  <path d="M460 145 H500" stroke="#7b838d" stroke-width="1.6"/><path d="M495 140 L502 145 L495 150 z" fill="#7b838d"/>
+
+  <g>
+    <text x="620" y="66" font-size="13" fill="#3a45a0" text-anchor="middle">③ 이으면 직선</text>
+    <line x1="530" y1="210" x2="740" y2="210" stroke="#191d24" stroke-width="1.4"/>
+    <line x1="530" y1="210" x2="530" y2="80" stroke="#191d24" stroke-width="1.4"/>
+    <line x1="540" y1="204" x2="700" y2="90" stroke="#3a45a0" stroke-width="2.5"/>
+    <circle cx="546" cy="196" r="4.5" fill="#3a45a0"/>
+    <circle cx="582" cy="168" r="4.5" fill="#3a45a0"/>
+    <circle cx="618" cy="140" r="4.5" fill="#3a45a0"/>
+    <circle cx="654" cy="112" r="4.5" fill="#3a45a0"/>
+  </g>
+</svg>

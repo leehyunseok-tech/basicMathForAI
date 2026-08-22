@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">실전에서 만나는 활성화 함수는 사실상 이 세 개가 전부입니다</text>
+
+  <g>
+    <rect x="30" y="56" width="240" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="150" y="82" font-size="14" fill="#3a45a0" text-anchor="middle">시그모이드</text>
+    <line x1="54" y1="200" x2="252" y2="200" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="152" y1="212" x2="152" y2="106" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="54" y1="112" x2="252" y2="112" stroke="#d6dad1" stroke-dasharray="3 3"/>
+    <text x="48" y="116" font-size="10" fill="#7b838d" text-anchor="end">1</text>
+    <text x="48" y="204" font-size="10" fill="#7b838d" text-anchor="end">0</text>
+    <path d="M58 196 C104 194, 130 186, 152 156 C174 126, 200 116, 248 114" fill="none" stroke="#3a45a0" stroke-width="2.6"/>
+    <text x="150" y="226" font-size="12" fill="#4d5561" text-anchor="middle">뭐가 들어와도 0~1 사이로</text>
+  </g>
+
+  <g>
+    <rect x="286" y="56" width="240" height="180" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="406" y="82" font-size="14" fill="#3a45a0" text-anchor="middle">ReLU</text>
+    <line x1="310" y1="196" x2="508" y2="196" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="408" y1="212" x2="408" y2="106" stroke="#191d24" stroke-width="1.2"/>
+    <path d="M314 196 H408 L492 112" fill="none" stroke="#0f7864" stroke-width="2.8"/>
+    <text x="352" y="188" font-size="11" fill="#a2661c">음수는 0</text>
+    <text x="450" y="150" font-size="11" fill="#0f7864">양수는 그대로</text>
+    <text x="406" y="226" font-size="12" fill="#4d5561" text-anchor="middle">가장 단순하고 가장 많이 씁니다</text>
+  </g>
+
+  <g>
+    <rect x="542" y="56" width="228" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="656" y="82" font-size="14" fill="#3a45a0" text-anchor="middle">소프트맥스</text>
+    <text x="566" y="112" font-size="12" fill="#7b838d">점수: 2.0 &#160;1.0 &#160;0.1</text>
+    <path d="M656 122 V138" stroke="#3a45a0" stroke-width="1.5"/><path d="M651 133 L656 140 L661 133 z" fill="#3a45a0"/>
+    <rect x="566" y="148" width="122" height="20" fill="#3a45a0"/>
+    <text x="700" y="163" font-size="11" fill="#3a45a0">65%</text>
+    <rect x="566" y="172" width="46" height="20" fill="#7b838d"/>
+    <text x="700" y="187" font-size="11" fill="#7b838d">24%</text>
+    <rect x="566" y="196" width="21" height="20" fill="#d6dad1"/>
+    <text x="700" y="211" font-size="11" fill="#7b838d">11%</text>
+    <text x="656" y="230" font-size="12" fill="#4d5561" text-anchor="middle">여러 개를 합쳐서 100%로</text>
+  </g>
+
+  <text x="30" y="266" font-size="13.5" fill="#191d24">쓰는 자리도 정해져 있습니다: 중간 층은 <tspan fill="#0f7864">ReLU</tspan>, 맨 끝에서 확률이 필요하면 <tspan fill="#3a45a0">시그모이드(둘 중 하나)</tspan> 또는 <tspan fill="#3a45a0">소프트맥스(여럿 중 하나)</tspan>.</text>
+  <text x="30" y="288" font-size="13" fill="#7b838d">이름은 무섭지만 하는 일은 “구부리기”와 “비율로 만들기”, 두 가지뿐입니다.</text>
+</svg>

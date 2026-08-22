@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">점이 모이면, 표로는 안 보이던 “관계”가 눈에 보입니다</text>
+
+  <g>
+    <rect x="30" y="56" width="238" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="60" y1="190" x2="245" y2="190" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="60" y1="190" x2="60" y2="76" stroke="#191d24" stroke-width="1.2"/>
+    <g fill="#3a45a0">
+      <circle cx="82" cy="176" r="4"/><circle cx="104" cy="168" r="4"/><circle cx="126" cy="156" r="4"/>
+      <circle cx="146" cy="150" r="4"/><circle cx="168" cy="134" r="4"/><circle cx="190" cy="128" r="4"/>
+      <circle cx="212" cy="112" r="4"/><circle cx="232" cy="100" r="4"/>
+    </g>
+    <text x="149" y="238" font-size="13.5" fill="#191d24" text-anchor="middle">같이 오른다</text>
+  </g>
+
+  <g>
+    <rect x="282" y="56" width="238" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="312" y1="190" x2="497" y2="190" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="312" y1="190" x2="312" y2="76" stroke="#191d24" stroke-width="1.2"/>
+    <g fill="#a2661c">
+      <circle cx="334" cy="98" r="4"/><circle cx="356" cy="110" r="4"/><circle cx="378" cy="118" r="4"/>
+      <circle cx="398" cy="134" r="4"/><circle cx="420" cy="142" r="4"/><circle cx="442" cy="158" r="4"/>
+      <circle cx="464" cy="168" r="4"/><circle cx="484" cy="178" r="4"/>
+    </g>
+    <text x="401" y="238" font-size="13.5" fill="#191d24" text-anchor="middle">하나가 오르면 하나가 내린다</text>
+  </g>
+
+  <g>
+    <rect x="534" y="56" width="238" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <line x1="564" y1="190" x2="749" y2="190" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="564" y1="190" x2="564" y2="76" stroke="#191d24" stroke-width="1.2"/>
+    <g fill="#7b838d">
+      <circle cx="590" cy="140" r="4"/><circle cx="612" cy="98" r="4"/><circle cx="628" cy="170" r="4"/>
+      <circle cx="654" cy="118" r="4"/><circle cx="676" cy="160" r="4"/><circle cx="694" cy="104" r="4"/>
+      <circle cx="716" cy="148" r="4"/><circle cx="736" cy="126" r="4"/>
+    </g>
+    <text x="653" y="238" font-size="13.5" fill="#191d24" text-anchor="middle">아무 관계 없다</text>
+  </g>
+</svg>

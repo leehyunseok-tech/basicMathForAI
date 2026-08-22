@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">거듭제곱은 “몇 번 곱했는가”를 어깨 위 작은 숫자로 적은 것</text>
+
+  <g>
+    <rect x="50" y="66" width="200" height="120" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="150" y="100" font-size="15" fill="#4d5561" text-anchor="middle">3 × 3</text>
+    <rect x="105" y="112" width="90" height="46" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="150" y="141" font-size="17" fill="#3a45a0" text-anchor="middle">3² = 9</text>
+    <text x="150" y="176" font-size="12.5" fill="#7b838d" text-anchor="middle">한 변이 3인 정사각형의 넓이</text>
+  </g>
+
+  <g>
+    <rect x="278" y="66" width="200" height="120" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="378" y="100" font-size="15" fill="#4d5561" text-anchor="middle">3 × 3 × 3</text>
+    <rect x="333" y="112" width="90" height="46" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="378" y="141" font-size="17" fill="#3a45a0" text-anchor="middle">3³ = 27</text>
+    <text x="378" y="176" font-size="12.5" fill="#7b838d" text-anchor="middle">한 변이 3인 정육면체의 부피</text>
+  </g>
+
+  <g>
+    <rect x="506" y="66" width="250" height="120" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="631" y="100" font-size="15" fill="#4d5561" text-anchor="middle">2 × 2 × ... × 2 (10번)</text>
+    <rect x="551" y="112" width="160" height="46" fill="#ffffff" stroke="#3a45a0"/>
+    <text x="631" y="141" font-size="17" fill="#3a45a0" text-anchor="middle">2¹⁰ = 1,024</text>
+    <text x="631" y="176" font-size="12.5" fill="#7b838d" text-anchor="middle">10번만 곱해도 1000을 넘습니다</text>
+  </g>
+
+  <text x="30" y="220" font-size="13.5" fill="#191d24">읽는 법: 3² “삼의 제곱”, 3³ “삼의 세제곱”, 2¹⁰ “이의 십제곱”</text>
+  <text x="30" y="240" font-size="13" fill="#7b838d">AI에서 보는 x², e&#8339;, 2⁻¹ 전부 이 규칙 하나입니다.</text>
+</svg>

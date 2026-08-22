@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="800" height="210" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="208" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">모든 절은 이 순서로 진행됩니다</text>
+
+  <g>
+    <rect x="30" y="62" width="168" height="96" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="46" y="88" font-size="11" fill="#3a45a0" letter-spacing="1.5">STEP 1</text>
+    <text x="46" y="112" font-size="16" fill="#191d24">한 문장 요약</text>
+    <text x="46" y="136" font-size="12.5" fill="#4d5561">딱 하나만 가져간다면</text>
+  </g>
+  <path d="M204 110 H222" stroke="#7b838d" stroke-width="1.5"/><path d="M217 105 L224 110 L217 115 z" fill="#7b838d"/>
+
+  <g>
+    <rect x="230" y="62" width="168" height="96" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="246" y="88" font-size="11" fill="#3a45a0" letter-spacing="1.5">STEP 2</text>
+    <text x="246" y="112" font-size="16" fill="#191d24">그림으로 이해</text>
+    <text x="246" y="136" font-size="12.5" fill="#4d5561">여기가 가장 깁니다</text>
+  </g>
+  <path d="M404 110 H422" stroke="#7b838d" stroke-width="1.5"/><path d="M417 105 L424 110 L417 115 z" fill="#7b838d"/>
+
+  <g>
+    <rect x="430" y="62" width="168" height="96" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="446" y="88" font-size="11" fill="#3a45a0" letter-spacing="1.5">STEP 3</text>
+    <text x="446" y="112" font-size="16" fill="#191d24">수식으로 적기</text>
+    <text x="446" y="136" font-size="12.5" fill="#4d5561">그림을 짧게 줄이면</text>
+  </g>
+  <path d="M604 110 H622" stroke="#7b838d" stroke-width="1.5"/><path d="M617 105 L624 110 L617 115 z" fill="#7b838d"/>
+
+  <g>
+    <rect x="630" y="62" width="140" height="96" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="646" y="88" font-size="11" fill="#3a45a0" letter-spacing="1.5">STEP 4</text>
+    <text x="646" y="112" font-size="16" fill="#191d24">1분 확인</text>
+    <text x="646" y="136" font-size="12.5" fill="#4d5561">감각 점검</text>
+  </g>
+
+  <text x="30" y="188" font-size="13" fill="#7b838d">STEP 2에서 이해가 됐다면 STEP 3은 그냥 확인 작업입니다.</text>
+</svg>

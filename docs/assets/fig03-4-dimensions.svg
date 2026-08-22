@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="268" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">‘차원’은 어려운 개념이 아니라, 한 줄에 적힌 숫자의 개수입니다</text>
+
+  <g>
+    <rect x="30" y="58" width="172" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="116" y="86" font-size="13" fill="#3a45a0" text-anchor="middle">숫자 1개 · 1차원</text>
+    <line x1="52" y1="132" x2="180" y2="132" stroke="#191d24" stroke-width="1.5"/>
+    <circle cx="132" cy="132" r="6" fill="#3a45a0"/>
+    <text x="116" y="176" font-size="12.5" fill="#4d5561" text-anchor="middle">키만 잰 데이터</text>
+    <text x="116" y="196" font-size="12.5" fill="#7b838d" text-anchor="middle">(172)</text>
+  </g>
+
+  <g>
+    <rect x="216" y="58" width="172" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="302" y="86" font-size="13" fill="#3a45a0" text-anchor="middle">숫자 2개 · 2차원</text>
+    <line x1="248" y1="164" x2="360" y2="164" stroke="#191d24" stroke-width="1.5"/>
+    <line x1="248" y1="164" x2="248" y2="100" stroke="#191d24" stroke-width="1.5"/>
+    <circle cx="310" cy="124" r="6" fill="#3a45a0"/>
+    <text x="302" y="192" font-size="12.5" fill="#4d5561" text-anchor="middle">키와 몸무게 (172, 65)</text>
+  </g>
+
+  <g>
+    <rect x="402" y="58" width="172" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="488" y="86" font-size="13" fill="#3a45a0" text-anchor="middle">숫자 3개 · 3차원</text>
+    <line x1="434" y1="164" x2="546" y2="164" stroke="#191d24" stroke-width="1.5"/>
+    <line x1="434" y1="164" x2="434" y2="100" stroke="#191d24" stroke-width="1.5"/>
+    <line x1="434" y1="164" x2="472" y2="188" stroke="#191d24" stroke-width="1.5"/>
+    <circle cx="498" cy="128" r="6" fill="#3a45a0"/>
+    <text x="488" y="196" font-size="12.5" fill="#4d5561" text-anchor="middle">+ 나이 (172, 65, 30)</text>
+  </g>
+
+  <g>
+    <rect x="588" y="58" width="182" height="150" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="679" y="86" font-size="13" fill="#3a45a0" text-anchor="middle">숫자 768개 · 768차원</text>
+    <text x="679" y="124" font-size="26" fill="#3a45a0" text-anchor="middle">?</text>
+    <text x="679" y="156" font-size="12.5" fill="#4d5561" text-anchor="middle">그림으로는 못 그립니다.</text>
+    <text x="679" y="176" font-size="12.5" fill="#4d5561" text-anchor="middle">그래도 계산은 똑같이 됩니다.</text>
+  </g>
+
+  <text x="30" y="240" font-size="13.5" fill="#191d24">AI가 “768차원 벡터”라고 하면, 그냥 <tspan fill="#3a45a0">숫자 768개가 한 줄로 적혀 있다</tspan>는 뜻입니다.</text>
+  <text x="30" y="260" font-size="13" fill="#7b838d">상상하려고 애쓰지 마세요. 2차원 그림으로 이해하고, 개수만 늘리면 됩니다.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">루트는 거듭제곱을 거꾸로 되돌리는 버튼입니다</text>
+
+  <rect x="70" y="72" width="120" height="120" fill="#e5e7f4" stroke="#3a45a0" stroke-width="1.5"/>
+  <text x="130" y="140" font-size="19" fill="#3a45a0" text-anchor="middle">넓이 9</text>
+  <text x="130" y="212" font-size="14" fill="#191d24" text-anchor="middle">한 변 = 3</text>
+
+  <g>
+    <path d="M215 116 H300" stroke="#0f7864" stroke-width="2"/>
+    <path d="M294 110 L302 116 L294 122 z" fill="#0f7864"/>
+    <text x="258" y="106" font-size="13" fill="#0f7864" text-anchor="middle">제곱하면</text>
+    <text x="258" y="140" font-size="13" fill="#0f7864" text-anchor="middle">3² = 9</text>
+  </g>
+  <g>
+    <path d="M300 172 H215" stroke="#a2661c" stroke-width="2"/>
+    <path d="M221 166 L213 172 L221 178 z" fill="#a2661c"/>
+    <text x="258" y="196" font-size="13" fill="#a2661c" text-anchor="middle">√9 = 3</text>
+  </g>
+
+  <rect x="330" y="88" width="180" height="88" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="420" y="122" font-size="15" fill="#4d5561" text-anchor="middle">두 번 곱하면 9가 되는 수</text>
+  <text x="420" y="152" font-size="20" fill="#191d24" text-anchor="middle">√9 = 3</text>
+
+  <rect x="540" y="72" width="216" height="120" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="648" y="100" font-size="14" fill="#7b838d" text-anchor="middle">딱 떨어지지 않아도 괜찮습니다</text>
+  <text x="648" y="132" font-size="17" fill="#191d24" text-anchor="middle">√2 = 1.41421...</text>
+  <text x="648" y="164" font-size="13" fill="#7b838d" text-anchor="middle">계산은 컴퓨터가 합니다</text>
+
+  <text x="30" y="238" font-size="13" fill="#7b838d">AI에서 루트는 주로 “거리”와 “표준편차”에 등장합니다. 둘 다 제곱했던 걸 되돌리는 자리입니다.</text>
+</svg>

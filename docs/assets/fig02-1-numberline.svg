@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 190" width="800" height="190" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="188" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">0을 기준으로 왼쪽으로도 수가 계속 이어집니다</text>
+
+  <line x1="60" y1="105" x2="740" y2="105" stroke="#191d24" stroke-width="2"/>
+  <path d="M60 105 L70 100 L70 110 z" fill="#191d24"/>
+  <path d="M740 105 L730 100 L730 110 z" fill="#191d24"/>
+
+  <g stroke="#191d24" stroke-width="1.5">
+    <line x1="120" y1="97" x2="120" y2="113"/><line x1="200" y1="97" x2="200" y2="113"/>
+    <line x1="280" y1="97" x2="280" y2="113"/><line x1="360" y1="97" x2="360" y2="113"/>
+    <line x1="440" y1="97" x2="440" y2="113"/><line x1="520" y1="97" x2="520" y2="113"/>
+    <line x1="600" y1="97" x2="600" y2="113"/><line x1="680" y1="97" x2="680" y2="113"/>
+  </g>
+  <g font-size="15" fill="#191d24" text-anchor="middle">
+    <text x="120" y="136">−4</text><text x="200" y="136">−3</text><text x="280" y="136">−2</text>
+    <text x="360" y="136">−1</text><text x="520" y="136">1</text>
+    <text x="600" y="136">2</text><text x="680" y="136">3</text>
+  </g>
+  <circle cx="440" cy="105" r="6" fill="#3a45a0"/>
+  <text x="440" y="138" font-size="16" fill="#3a45a0" text-anchor="middle" font-weight="bold">0</text>
+
+  <text x="230" y="72" font-size="13.5" fill="#a2661c" text-anchor="middle">← 음수 (0보다 작다)</text>
+  <text x="620" y="72" font-size="13.5" fill="#0f7864" text-anchor="middle">양수 (0보다 크다) →</text>
+  <text x="30" y="170" font-size="13" fill="#7b838d">기온, 통장 잔고, 그리고 AI의 “예측이 정답보다 얼마나 낮은가” — 전부 음수가 필요합니다.</text>
+</svg>

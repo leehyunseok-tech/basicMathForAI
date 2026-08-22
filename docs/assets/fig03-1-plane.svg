@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="338" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">숫자 두 개면 평면 위의 한 지점이 정해집니다</text>
+
+  <g stroke="#e4e7df" stroke-width="1">
+    <line x1="120" y1="80" x2="120" y2="290"/><line x1="180" y1="80" x2="180" y2="290"/>
+    <line x1="240" y1="80" x2="240" y2="290"/><line x1="300" y1="80" x2="300" y2="290"/>
+    <line x1="360" y1="80" x2="360" y2="290"/><line x1="420" y1="80" x2="420" y2="290"/>
+    <line x1="60" y1="110" x2="480" y2="110"/><line x1="60" y1="150" x2="480" y2="150"/>
+    <line x1="60" y1="190" x2="480" y2="190"/><line x1="60" y1="230" x2="480" y2="230"/>
+  </g>
+
+  <line x1="60" y1="270" x2="480" y2="270" stroke="#191d24" stroke-width="2"/>
+  <line x1="60" y1="290" x2="60" y2="80" stroke="#191d24" stroke-width="2"/>
+  <path d="M480 270 L470 265 L470 275 z" fill="#191d24"/>
+  <path d="M60 80 L55 90 L65 90 z" fill="#191d24"/>
+  <text x="492" y="275" font-size="14" fill="#191d24">x (가로)</text>
+  <text x="48" y="72" font-size="14" fill="#191d24" text-anchor="middle">y</text>
+  <text x="48" y="288" font-size="13" fill="#7b838d" text-anchor="middle">0</text>
+
+  <g font-size="12" fill="#7b838d" text-anchor="middle">
+    <text x="120" y="288">1</text><text x="180" y="288">2</text><text x="240" y="288">3</text>
+    <text x="300" y="288">4</text><text x="360" y="288">5</text><text x="420" y="288">6</text>
+  </g>
+  <g font-size="12" fill="#7b838d" text-anchor="end">
+    <text x="52" y="235">1</text><text x="52" y="195">2</text><text x="52" y="155">3</text><text x="52" y="115">4</text>
+  </g>
+
+  <line x1="60" y1="150" x2="240" y2="150" stroke="#3a45a0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="240" y1="270" x2="240" y2="150" stroke="#3a45a0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="240" cy="150" r="7" fill="#3a45a0"/>
+  <text x="254" y="142" font-size="15" fill="#3a45a0">(3, 3)</text>
+
+  <rect x="520" y="96" width="248" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="540" y="126" font-size="14.5" fill="#191d24">읽는 순서는 항상 정해져 있습니다</text>
+  <text x="540" y="158" font-size="14" fill="#4d5561">1. 가로로 얼마나 (x)</text>
+  <text x="540" y="184" font-size="14" fill="#4d5561">2. 세로로 얼마나 (y)</text>
+  <text x="540" y="218" font-size="13.5" fill="#3a45a0">(3, 3) = 오른쪽 3, 위로 3</text>
+  <text x="540" y="238" font-size="12.5" fill="#7b838d">순서를 바꾸면 다른 점입니다.</text>
+
+  <text x="30" y="322" font-size="13" fill="#7b838d">지도의 위도·경도, 엑셀의 셀 주소와 완전히 같은 원리입니다.</text>
+</svg>

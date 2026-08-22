@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="318" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">이 코스에서 가장 중요한 그림 — 표의 한 줄은 그래프의 점 하나입니다</text>
+
+  <g>
+    <rect x="30" y="62" width="300" height="32" fill="#191d24"/>
+    <text x="48" y="84" fill="#ffffff" font-size="13">학생</text>
+    <text x="130" y="84" fill="#ffffff" font-size="13">공부시간</text>
+    <text x="240" y="84" fill="#ffffff" font-size="13">점수</text>
+
+    <rect x="30" y="94" width="300" height="32" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="48" y="116" font-size="13.5" fill="#191d24">A</text>
+    <text x="130" y="116" font-size="13.5" fill="#3a45a0" font-weight="bold">2시간</text>
+    <text x="240" y="116" font-size="13.5" fill="#3a45a0" font-weight="bold">40점</text>
+
+    <rect x="30" y="126" width="300" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="48" y="148" font-size="13.5" fill="#191d24">B</text>
+    <text x="130" y="148" font-size="13.5" fill="#4d5561">4시간</text>
+    <text x="240" y="148" font-size="13.5" fill="#4d5561">55점</text>
+
+    <rect x="30" y="158" width="300" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="48" y="180" font-size="13.5" fill="#191d24">C</text>
+    <text x="130" y="180" font-size="13.5" fill="#4d5561">7시간</text>
+    <text x="240" y="180" font-size="13.5" fill="#4d5561">80점</text>
+
+    <text x="30" y="222" font-size="13" fill="#7b838d">A는 (2, 40) 이라는 숫자 두 개</text>
+  </g>
+
+  <path d="M350 130 H410" stroke="#3a45a0" stroke-width="2"/>
+  <path d="M404 124 L412 130 L404 136 z" fill="#3a45a0"/>
+  <text x="381" y="118" font-size="12.5" fill="#3a45a0" text-anchor="middle">그리면</text>
+
+  <g>
+    <line x1="450" y1="260" x2="760" y2="260" stroke="#191d24" stroke-width="1.5"/>
+    <line x1="450" y1="260" x2="450" y2="70" stroke="#191d24" stroke-width="1.5"/>
+    <text x="770" y="264" font-size="12" fill="#191d24" text-anchor="end">공부시간</text>
+    <text x="450" y="60" font-size="12" fill="#191d24" text-anchor="middle">점수</text>
+
+    <circle cx="514" cy="212" r="7" fill="#3a45a0"/>
+    <text x="526" y="208" font-size="12.5" fill="#3a45a0">A (2, 40)</text>
+    <circle cx="578" cy="180" r="6" fill="#7b838d"/>
+    <text x="590" y="176" font-size="12.5" fill="#7b838d">B</text>
+    <circle cx="674" cy="126" r="6" fill="#7b838d"/>
+    <text x="686" y="122" font-size="12.5" fill="#7b838d">C</text>
+  </g>
+
+  <text x="30" y="292" font-size="13.5" fill="#191d24">AI가 “데이터를 학습한다”는 말은, 이렇게 찍힌 점들을 보고 규칙을 찾는다는 뜻입니다.</text>
+</svg>

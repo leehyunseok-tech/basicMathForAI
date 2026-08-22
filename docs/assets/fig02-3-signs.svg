@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">곱셈과 나눗셈의 부호는 “마이너스의 개수가 짝수인가 홀수인가”로 정해집니다</text>
+
+  <g>
+    <rect x="40" y="62" width="164" height="86" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="122" y="98" font-size="19" fill="#191d24" text-anchor="middle">(+) × (+)</text>
+    <text x="122" y="128" font-size="19" fill="#0f7864" text-anchor="middle" font-weight="bold">= +</text>
+  </g>
+  <g>
+    <rect x="224" y="62" width="164" height="86" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="306" y="98" font-size="19" fill="#191d24" text-anchor="middle">(+) × (−)</text>
+    <text x="306" y="128" font-size="19" fill="#a2661c" text-anchor="middle" font-weight="bold">= −</text>
+  </g>
+  <g>
+    <rect x="408" y="62" width="164" height="86" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="490" y="98" font-size="19" fill="#191d24" text-anchor="middle">(−) × (+)</text>
+    <text x="490" y="128" font-size="19" fill="#a2661c" text-anchor="middle" font-weight="bold">= −</text>
+  </g>
+  <g>
+    <rect x="592" y="62" width="164" height="86" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="674" y="98" font-size="19" fill="#191d24" text-anchor="middle">(−) × (−)</text>
+    <text x="674" y="128" font-size="19" fill="#0f7864" text-anchor="middle" font-weight="bold">= +</text>
+  </g>
+
+  <rect x="40" y="172" width="716" height="60" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="60" y="199" font-size="14.5" fill="#191d24">기억할 건 한 줄:</text>
+  <text x="175" y="199" font-size="14.5" fill="#3a45a0" font-weight="bold">마이너스가 짝수 개면 +, 홀수 개면 −</text>
+  <text x="60" y="221" font-size="13" fill="#7b838d">(−2) × (−3) × (−1) → 마이너스 3개 = 홀수 → 결과는 음수, 즉 −6</text>
+</svg>

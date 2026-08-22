@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">AI를 학습시키면 가장 먼저 보게 되는 그래프입니다 (지금은 모양만 봐 두세요)</text>
+
+  <g stroke="#e4e7df" stroke-width="1">
+    <line x1="80" y1="90" x2="560" y2="90"/><line x1="80" y1="140" x2="560" y2="140"/>
+    <line x1="80" y1="190" x2="560" y2="190"/>
+  </g>
+  <line x1="80" y1="240" x2="570" y2="240" stroke="#191d24" stroke-width="1.8"/>
+  <line x1="80" y1="240" x2="80" y2="70" stroke="#191d24" stroke-width="1.8"/>
+  <text x="325" y="270" font-size="13.5" fill="#191d24" text-anchor="middle">학습을 반복한 횟수 →</text>
+  <text x="66" y="66" font-size="13.5" fill="#191d24" text-anchor="middle">오차</text>
+
+  <path d="M96 82 C150 84, 175 150, 220 178 C270 208, 330 222, 400 229 C460 234, 510 236, 556 237"
+        fill="none" stroke="#3a45a0" stroke-width="2.5"/>
+  <circle cx="96" cy="82" r="5" fill="#a2661c"/>
+  <text x="112" y="78" font-size="12.5" fill="#a2661c">처음엔 많이 틀립니다</text>
+  <circle cx="556" cy="237" r="5" fill="#0f7864"/>
+  <text x="548" y="222" font-size="12.5" fill="#0f7864" text-anchor="end">점점 덜 틀립니다</text>
+
+  <rect x="596" y="88" width="176" height="146" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="616" y="116" font-size="13.5" fill="#191d24">이 그래프를 읽으면</text>
+  <text x="616" y="146" font-size="12.5" fill="#4d5561">· 내려가면 → 잘 배우는 중</text>
+  <text x="616" y="172" font-size="12.5" fill="#4d5561">· 평평하면 → 다 배웠거나 멈춤</text>
+  <text x="616" y="198" font-size="12.5" fill="#4d5561">· 올라가면 → 뭔가 잘못됨</text>
+  <text x="616" y="222" font-size="12" fill="#7b838d">읽는 법은 이게 전부입니다.</text>
+</svg>

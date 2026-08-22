@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="42" font-size="15" fill="#7b838d">수식은 외계어가 아니라, 긴 문장을 짧게 줄여 쓴 것입니다</text>
+
+  <rect x="30" y="66" width="330" height="76" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="195" y="112" font-size="24" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">θ ← θ − η ∂L/∂θ</text>
+
+  <path d="M375 104 H430" stroke="#3a45a0" stroke-width="2"/>
+  <path d="M424 98 L432 104 L424 110 z" fill="#3a45a0"/>
+
+  <rect x="445" y="66" width="325" height="76" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="607" y="96" font-size="15" fill="#191d24" text-anchor="middle">언덕에서 가장 가파른 방향을 찾아,</text>
+  <text x="607" y="120" font-size="15" fill="#191d24" text-anchor="middle">보폭 η만큼 아래로 한 발 내려간다.</text>
+
+  <rect x="30" y="176" width="330" height="76" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="195" y="222" font-size="20" fill="#191d24" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace">e&#8309;ⁱ / Σ e&#8309;ʲ</text>
+
+  <path d="M375 214 H430" stroke="#3a45a0" stroke-width="2"/>
+  <path d="M424 208 L432 214 L424 220 z" fill="#3a45a0"/>
+
+  <rect x="445" y="176" width="325" height="76" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="607" y="206" font-size="15" fill="#191d24" text-anchor="middle">점수를 전부 양수로 만든 뒤,</text>
+  <text x="607" y="230" font-size="15" fill="#191d24" text-anchor="middle">합이 1이 되도록 비율로 나눈다.</text>
+
+  <text x="30" y="282" font-size="13" fill="#7b838d">왼쪽을 오른쪽으로 바꾸는 것 — 이 코스가 하는 일은 딱 이것뿐입니다.</text>
+</svg>

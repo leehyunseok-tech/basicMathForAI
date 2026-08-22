@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">덧셈은 오른쪽으로, 뺄셈은 왼쪽으로 걷는 것</text>
+
+  <g>
+    <text x="30" y="72" font-size="16" fill="#191d24">3 + 2 = 5 &#160;&#160;&#160;오른쪽으로 2칸</text>
+    <line x1="60" y1="112" x2="740" y2="112" stroke="#191d24" stroke-width="1.5"/>
+    <g stroke="#d6dad1" stroke-width="1">
+      <line x1="140" y1="106" x2="140" y2="118"/><line x1="215" y1="106" x2="215" y2="118"/>
+      <line x1="290" y1="106" x2="290" y2="118"/><line x1="365" y1="106" x2="365" y2="118"/>
+      <line x1="440" y1="106" x2="440" y2="118"/><line x1="515" y1="106" x2="515" y2="118"/>
+      <line x1="590" y1="106" x2="590" y2="118"/><line x1="665" y1="106" x2="665" y2="118"/>
+    </g>
+    <g font-size="12" fill="#7b838d" text-anchor="middle">
+      <text x="140" y="134">−2</text><text x="215" y="134">−1</text><text x="290" y="134">0</text>
+      <text x="365" y="134">1</text><text x="440" y="134">2</text><text x="515" y="134">3</text>
+      <text x="590" y="134">4</text><text x="665" y="134">5</text>
+    </g>
+    <circle cx="515" cy="112" r="5" fill="#7b838d"/>
+    <path d="M515 92 H660" stroke="#0f7864" stroke-width="2.5" fill="none"/>
+    <path d="M655 86 L664 92 L655 98 z" fill="#0f7864"/>
+    <text x="588" y="82" font-size="13" fill="#0f7864" text-anchor="middle">+2</text>
+    <circle cx="665" cy="112" r="6" fill="#0f7864"/>
+  </g>
+
+  <g>
+    <text x="30" y="192" font-size="16" fill="#191d24">3 − 5 = −2 &#160;&#160;&#160;왼쪽으로 5칸 (0을 지나 음수로)</text>
+    <line x1="60" y1="232" x2="740" y2="232" stroke="#191d24" stroke-width="1.5"/>
+    <g stroke="#d6dad1" stroke-width="1">
+      <line x1="140" y1="226" x2="140" y2="238"/><line x1="215" y1="226" x2="215" y2="238"/>
+      <line x1="290" y1="226" x2="290" y2="238"/><line x1="365" y1="226" x2="365" y2="238"/>
+      <line x1="440" y1="226" x2="440" y2="238"/><line x1="515" y1="226" x2="515" y2="238"/>
+      <line x1="590" y1="226" x2="590" y2="238"/><line x1="665" y1="226" x2="665" y2="238"/>
+    </g>
+    <g font-size="12" fill="#7b838d" text-anchor="middle">
+      <text x="140" y="254">−2</text><text x="215" y="254">−1</text><text x="290" y="254">0</text>
+      <text x="365" y="254">1</text><text x="440" y="254">2</text><text x="515" y="254">3</text>
+      <text x="590" y="254">4</text><text x="665" y="254">5</text>
+    </g>
+    <circle cx="515" cy="232" r="5" fill="#7b838d"/>
+    <path d="M515 212 H146" stroke="#a2661c" stroke-width="2.5" fill="none"/>
+    <path d="M151 206 L142 212 L151 218 z" fill="#a2661c"/>
+    <text x="330" y="202" font-size="13" fill="#a2661c" text-anchor="middle">−5</text>
+    <circle cx="140" cy="232" r="6" fill="#a2661c"/>
+  </g>
+  <text x="30" y="284" font-size="13" fill="#7b838d">외우지 마세요. 수직선 위를 걷는 그림만 기억하면 됩니다.</text>
+</svg>

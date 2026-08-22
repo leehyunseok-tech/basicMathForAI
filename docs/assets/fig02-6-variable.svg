@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="38" font-size="15" fill="#7b838d">x는 어려운 기호가 아니라, 아직 값이 안 정해진 “빈 상자”입니다</text>
+
+  <rect x="50" y="66" width="330" height="120" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="70" y="96" font-size="14.5" fill="#4d5561">사과 한 개에 800원. 몇 개 살지는 아직 모름.</text>
+  <text x="70" y="134" font-size="20" fill="#191d24">총액 = 800 ×</text>
+  <rect x="232" y="114" width="42" height="30" rx="3" fill="#e5e7f4" stroke="#3a45a0" stroke-dasharray="4 3"/>
+  <text x="253" y="136" font-size="20" fill="#3a45a0" text-anchor="middle">x</text>
+  <text x="70" y="166" font-size="13" fill="#7b838d">이 빈 상자에 이름을 붙인 게 x 입니다</text>
+
+  <g>
+    <rect x="410" y="66" width="346" height="120" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="430" y="96" font-size="14.5" fill="#4d5561">상자에 숫자를 넣어 보면 (대입)</text>
+    <text x="430" y="128" font-size="16" fill="#191d24">x = 3 &#8594; 800 × 3 = 2,400원</text>
+    <text x="430" y="156" font-size="16" fill="#191d24">x = 10 &#8594; 800 × 10 = 8,000원</text>
+  </g>
+
+  <text x="30" y="216" font-size="13.5" fill="#191d24">프로그래머라면 이미 알고 있습니다. x는 그냥 <tspan font-family="'SF Mono',Menlo,Consolas,monospace" fill="#3a45a0">변수</tspan>입니다.</text>
+  <text x="30" y="238" font-size="13" fill="#7b838d">AI에서 x는 보통 “입력 데이터”, θ(세타)는 “아직 학습되지 않은 값”을 담는 상자입니다.</text>
+</svg>

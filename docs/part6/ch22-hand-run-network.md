@@ -270,4 +270,4 @@ AI가 어려워 보였던 건 수학이 어려워서가 아니라,
 
 | ⬅️ 이전 | 다음 ➡️ |
 |---|---|
-| [Chapter 21. AI 수식 해부하기](ch21-dissect-formulas.md) | 부록 A. 기호 치트시트 *(집필 예정)* |
+| [Chapter 21. AI 수식 해부하기](ch21-dissect-formulas.md) | [부록 A. 기호 · 그리스 문자 치트시트](../appendix/a-symbol-cheatsheet.md) |

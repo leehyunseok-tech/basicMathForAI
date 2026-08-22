@@ -39,8 +39,8 @@
 - [Chapter 22. 종이 위에서 굴려보는 미니 신경망](docs/part6/ch22-hand-run-network.md) ✅
 
 ### 부록 — 필요할 때 펼치는 참고 자료
-- A. 기호 · 그리스 문자 치트시트 *(집필 예정)*
-- B. 삼각함수 아주 짧게 *(집필 예정)*
-- C. 수식 ↔ 파이썬/NumPy 대조표 *(집필 예정)*
-- D. 2진법과 부동소수점 *(집필 예정)*
-- E. 다음 단계 로드맵 *(집필 예정)*
+- [A. 기호 · 그리스 문자 치트시트](docs/appendix/a-symbol-cheatsheet.md) ✅
+- [B. 삼각함수 아주 짧게](docs/appendix/b-trigonometry.md) ✅
+- [C. 수식 ↔ 파이썬/NumPy 대조표](docs/appendix/c-numpy-table.md) ✅
+- [D. 2진법과 부동소수점](docs/appendix/d-floating-point.md) ✅
+- [E. 다음 단계 로드맵](docs/appendix/e-next-steps.md) ✅

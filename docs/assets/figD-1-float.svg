@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">부동소수점 — 컴퓨터가 소수를 담는 방식. AI 성능·메모리와 직결됩니다.</text>
+
+  <text x="30" y="70" font-size="13" fill="#3a45a0">float32 (32비트)</text>
+  <g>
+    <rect x="30" y="80" width="40" height="34" fill="#a2661c"/><text x="50" y="102" font-size="11" fill="#fff" text-anchor="middle">부호</text>
+    <rect x="70" y="80" width="130" height="34" fill="#3a45a0"/><text x="135" y="102" font-size="11" fill="#fff" text-anchor="middle">지수 8비트</text>
+    <rect x="200" y="80" width="360" height="34" fill="#0f7864"/><text x="380" y="102" font-size="11" fill="#fff" text-anchor="middle">가수(정밀도) 23비트</text>
+  </g>
+
+  <text x="30" y="150" font-size="13" fill="#3a45a0">bfloat16 (16비트) — 지수는 그대로, 정밀도만 줄임</text>
+  <g>
+    <rect x="30" y="160" width="40" height="34" fill="#a2661c"/><text x="50" y="182" font-size="11" fill="#fff" text-anchor="middle">부호</text>
+    <rect x="70" y="160" width="130" height="34" fill="#3a45a0"/><text x="135" y="182" font-size="11" fill="#fff" text-anchor="middle">지수 8비트</text>
+    <rect x="200" y="160" width="120" height="34" fill="#0f7864"/><text x="260" y="182" font-size="11" fill="#fff" text-anchor="middle">가수 7비트</text>
+    <rect x="320" y="160" width="240" height="34" fill="#e4e7df" stroke="#d6dad1" stroke-dasharray="4 3"/>
+    <text x="440" y="182" font-size="11" fill="#7b838d" text-anchor="middle">버림 — 메모리 절반</text>
+  </g>
+
+  <rect x="30" y="216" width="738" height="58" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="52" y="240" font-size="13" fill="#191d24">지수부를 유지한 이유: 학습 중 기울기가 아주 커지거나 작아져도 <tspan fill="#3a45a0">범위를 감당해야</tspan> 하기 때문입니다.</text>
+  <text x="52" y="262" font-size="12.5" fill="#7b838d">정밀도는 조금 떨어져도 학습이 잘 됩니다 — 그래서 딥러닝은 bfloat16을 즐겨 씁니다.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">AI 수식에서 만나는 Σ 는 사실상 세 가지 패턴뿐입니다</text>
+
+  <rect x="30" y="56" width="738" height="66" rx="4" fill="#ffffff" stroke="#3a45a0"/>
+  <text x="52" y="80" font-size="13" fill="#3a45a0">① 데이터 전부에 대해 — “모든 샘플의 오차를 더한다”</text>
+  <text x="52" y="108" font-size="14" fill="#191d24" font-family="'SF Mono',Menlo,Consolas,monospace">L = (1/n) Σᵢ (yᵢ − ŷᵢ)²</text>
+  <text x="440" y="108" font-size="12.5" fill="#7b838d">→ 손실 함수 (Chapter 06)</text>
+
+  <rect x="30" y="132" width="738" height="66" rx="4" fill="#ffffff" stroke="#0f7864"/>
+  <text x="52" y="156" font-size="13" fill="#0f7864">② 입력 항목 전부에 대해 — “가중치 곱해서 더한다”</text>
+  <text x="52" y="184" font-size="14" fill="#191d24" font-family="'SF Mono',Menlo,Consolas,monospace">z = Σⱼ wⱼxⱼ + b</text>
+  <text x="440" y="184" font-size="12.5" fill="#7b838d">→ 내적 · 뉴런 하나 (Chapter 10)</text>
+
+  <rect x="30" y="208" width="738" height="66" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="52" y="232" font-size="13" fill="#a2661c">③ 분류 후보 전부에 대해 — “확률이 되도록 전체 합으로 나눈다”</text>
+  <text x="52" y="260" font-size="14" fill="#191d24" font-family="'SF Mono',Menlo,Consolas,monospace">softmax(zᵢ) = e^zᵢ / Σⱼ e^zⱼ</text>
+  <text x="440" y="260" font-size="12.5" fill="#7b838d">→ 소프트맥스 (Chapter 08)</text>
+</svg>

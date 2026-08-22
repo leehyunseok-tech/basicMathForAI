@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">연속 데이터의 확률은 “점”이 아니라 “넓이”입니다 — 그래서 적분이 필요합니다</text>
+
+  <line x1="70" y1="220" x2="500" y2="220" stroke="#191d24" stroke-width="1.5"/>
+  <path d="M82 218 C150 216, 190 190, 230 140 C270 90, 300 72, 330 72 C360 72, 392 92, 428 142 C458 184, 480 212, 492 218"
+        fill="none" stroke="#3a45a0" stroke-width="2.4"/>
+  <path d="M230 140 C270 90, 300 72, 330 72 C348 72, 366 80, 386 100 L386 220 L230 220 Z" fill="#e5e7f4" stroke="none"/>
+  <path d="M82 218 C150 216, 190 190, 230 140 C270 90, 300 72, 330 72 C360 72, 392 92, 428 142 C458 184, 480 212, 492 218"
+        fill="none" stroke="#3a45a0" stroke-width="2.4"/>
+  <line x1="230" y1="220" x2="230" y2="140" stroke="#3a45a0" stroke-width="1.4"/>
+  <line x1="386" y1="220" x2="386" y2="100" stroke="#3a45a0" stroke-width="1.4"/>
+  <text x="230" y="240" font-size="11.5" fill="#7b838d" text-anchor="middle">165</text>
+  <text x="386" y="240" font-size="11.5" fill="#7b838d" text-anchor="middle">175</text>
+  <text x="308" y="180" font-size="13" fill="#3a45a0" text-anchor="middle">이 넓이 = 확률</text>
+  <text x="285" y="264" font-size="12" fill="#7b838d" text-anchor="middle">키가 165~175cm일 확률</text>
+
+  <rect x="540" y="66" width="228" height="170" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="654" y="94" font-size="13.5" fill="#191d24" text-anchor="middle">왜 “점”은 안 되나</text>
+  <text x="654" y="126" font-size="12.5" fill="#4d5561" text-anchor="middle">키가 정확히 170.000...cm인</text>
+  <text x="654" y="146" font-size="12.5" fill="#4d5561" text-anchor="middle">사람의 확률은? → 0입니다</text>
+  <text x="654" y="180" font-size="12.5" fill="#3a45a0" text-anchor="middle">폭이 없으면 넓이도 0</text>
+  <text x="654" y="212" font-size="12" fill="#7b838d" text-anchor="middle">그래서 항상 “구간”으로 묻습니다</text>
+
+  <rect x="70" y="252" width="698" height="0" fill="none"/>
+</svg>

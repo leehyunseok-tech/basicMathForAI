@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">편미분을 전부 모아 한 덩어리로 = 기울기 벡터(gradient)</text>
+
+  <rect x="30" y="58" width="300" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="180" y="86" font-size="13" fill="#191d24" text-anchor="middle">각 손잡이마다 하나씩</text>
+  <text x="60" y="122" font-size="15" fill="#3a45a0">∂L/∂w₁ = −3</text>
+  <text x="60" y="152" font-size="15" fill="#3a45a0">∂L/∂w₂ = +5</text>
+  <text x="60" y="182" font-size="15" fill="#3a45a0">∂L/∂w₃ = −1</text>
+  <text x="180" y="216" font-size="12" fill="#7b838d" text-anchor="middle">숫자 세 개가 나옵니다</text>
+
+  <path d="M348 148 H388" stroke="#3a45a0" stroke-width="1.8"/><path d="M383 143 L390 148 L383 153 z" fill="#3a45a0"/>
+  <text x="368" y="136" font-size="11" fill="#3a45a0" text-anchor="middle">묶으면</text>
+
+  <rect x="404" y="58" width="364" height="180" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="586" y="88" font-size="13.5" fill="#3a45a0" text-anchor="middle">기울기 벡터 (gradient)</text>
+  <text x="586" y="130" font-size="20" fill="#191d24" text-anchor="middle">∇L = (−3, +5, −1)</text>
+  <text x="586" y="166" font-size="12.5" fill="#4d5561" text-anchor="middle">Chapter 09의 벡터 그대로입니다.</text>
+  <text x="586" y="192" font-size="12.5" fill="#4d5561" text-anchor="middle">숫자 여러 개를 한 덩어리로 묶은 것.</text>
+  <text x="586" y="220" font-size="12.5" fill="#7b838d" text-anchor="middle">∇ 는 “나블라” 또는 “그래디언트”라고 읽습니다</text>
+
+  <rect x="30" y="252" width="738" height="28" rx="3" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="50" y="271" font-size="13" fill="#191d24">파라미터가 700억 개면 ∇L 도 <tspan fill="#3a45a0">숫자 700억 개짜리 벡터</tspan>입니다. 원리는 세 개일 때와 똑같습니다.</text>
+</svg>

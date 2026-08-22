@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">“AI가 학습한다”의 전 과정 — 이 다섯 단계를 수만 번 반복합니다</text>
+
+  <g>
+    <rect x="40" y="64" width="130" height="66" rx="4" fill="#ffffff" stroke="#3a45a0"/>
+    <text x="105" y="90" font-size="12" fill="#3a45a0" text-anchor="middle">① 순전파</text>
+    <text x="105" y="112" font-size="12" fill="#4d5561" text-anchor="middle">예측해 본다</text>
+    <path d="M176 97 H208" stroke="#191d24" stroke-width="1.6"/><path d="M203 92 L210 97 L203 102 z" fill="#191d24"/>
+
+    <rect x="216" y="64" width="130" height="66" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="281" y="90" font-size="12" fill="#a2661c" text-anchor="middle">② 손실 계산</text>
+    <text x="281" y="112" font-size="12" fill="#4d5561" text-anchor="middle">얼마나 틀렸나</text>
+    <path d="M352 97 H384" stroke="#191d24" stroke-width="1.6"/><path d="M379 92 L386 97 L379 102 z" fill="#191d24"/>
+
+    <rect x="392" y="64" width="130" height="66" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="457" y="90" font-size="12" fill="#a2661c" text-anchor="middle">③ 역전파</text>
+    <text x="457" y="112" font-size="12" fill="#4d5561" text-anchor="middle">기울기 구하기</text>
+    <path d="M528 97 H560" stroke="#191d24" stroke-width="1.6"/><path d="M555 92 L562 97 L555 102 z" fill="#191d24"/>
+
+    <rect x="568" y="64" width="130" height="66" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+    <text x="633" y="90" font-size="12" fill="#0f7864" text-anchor="middle">④ 갱신</text>
+    <text x="633" y="112" font-size="12" fill="#4d5561" text-anchor="middle">한 발 내려가기</text>
+  </g>
+  <path d="M633 136 V162 H105 V132" stroke="#3a45a0" stroke-width="1.6" stroke-dasharray="5 4" fill="none"/>
+  <path d="M100 138 L105 128 L110 138 z" fill="#3a45a0"/>
+  <text x="369" y="180" font-size="12.5" fill="#3a45a0" text-anchor="middle">⑤ 반복 (수만 번)</text>
+
+  <rect x="40" y="198" width="320" height="80" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="200" y="226" font-size="13" fill="#3a45a0" text-anchor="middle">각 단계의 수식</text>
+  <text x="200" y="256" font-size="17" fill="#191d24" text-anchor="middle">θ ← θ − η ∂L/∂θ</text>
+
+  <rect x="380" y="198" width="388" height="80" rx="4" fill="#191d24"/>
+  <g font-family="'SF Mono',Menlo,Consolas,monospace" font-size="12.5">
+    <text x="400" y="222" fill="#98a2ef">pred = model(x)</text>
+    <text x="400" y="242" fill="#dfa863">loss = criterion(pred, y)</text>
+    <text x="400" y="262" fill="#5fc4ab">loss.backward(); optimizer.step()</text>
+  </g>
+</svg>

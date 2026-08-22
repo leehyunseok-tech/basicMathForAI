@@ -315,4 +315,4 @@ Part 5가 끝나면 "AI가 학습한다"는 말의 전 과정을 그림으로 �
 
 | ⬅️ 이전 | 다음 ➡️ |
 |---|---|
-| [Chapter 14. 조건부확률과 베이즈 정리](ch14-bayes.md) | Chapter 16. 수열과 시그마 *(집필 예정)* |
+| [Chapter 14. 조건부확률과 베이즈 정리](ch14-bayes.md) | [Chapter 16. 수열과 시그마 — 반복을 적는 언어](../part5/ch16-sequence-sigma.md) |

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">역전파 — 앞으로 계산하고, 책임을 뒤로 거슬러 나눠 줍니다</text>
+
+  <text x="60" y="82" font-size="12.5" fill="#0f7864">순전파 (계산)</text>
+  <g>
+    <rect x="60" y="94" width="110" height="52" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="115" y="125" font-size="13" fill="#191d24" text-anchor="middle">입력 x</text>
+    <path d="M176 120 H212" stroke="#0f7864" stroke-width="2"/><path d="M207 115 L214 120 L207 125 z" fill="#0f7864"/>
+    <rect x="220" y="94" width="110" height="52" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="275" y="118" font-size="13" fill="#191d24" text-anchor="middle">1층</text>
+    <text x="275" y="136" font-size="11" fill="#7b838d" text-anchor="middle">W⁽¹⁾</text>
+    <path d="M336 120 H372" stroke="#0f7864" stroke-width="2"/><path d="M367 115 L374 120 L367 125 z" fill="#0f7864"/>
+    <rect x="380" y="94" width="110" height="52" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="435" y="118" font-size="13" fill="#191d24" text-anchor="middle">2층</text>
+    <text x="435" y="136" font-size="11" fill="#7b838d" text-anchor="middle">W⁽²⁾</text>
+    <path d="M496 120 H532" stroke="#0f7864" stroke-width="2"/><path d="M527 115 L534 120 L527 125 z" fill="#0f7864"/>
+    <rect x="540" y="94" width="110" height="52" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+    <text x="595" y="125" font-size="13" fill="#0f7864" text-anchor="middle">예측 ŷ</text>
+    <path d="M656 120 H692" stroke="#0f7864" stroke-width="2"/><path d="M687 115 L694 120 L687 125 z" fill="#0f7864"/>
+    <rect x="700" y="94" width="68" height="52" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+    <text x="734" y="118" font-size="12" fill="#a2661c" text-anchor="middle">손실</text>
+    <text x="734" y="136" font-size="12" fill="#a2661c" text-anchor="middle">L</text>
+  </g>
+
+  <text x="60" y="192" font-size="12.5" fill="#a2661c">역전파 (책임 나누기)</text>
+  <g>
+    <path d="M694 216 H660" stroke="#a2661c" stroke-width="2" stroke-dasharray="5 3"/><path d="M666 211 L658 216 L666 221 z" fill="#a2661c"/>
+    <rect x="540" y="200" width="110" height="34" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="595" y="222" font-size="12" fill="#a2661c" text-anchor="middle">∂L/∂ŷ</text>
+    <path d="M534 216 H500" stroke="#a2661c" stroke-width="2" stroke-dasharray="5 3"/><path d="M506 211 L498 216 L506 221 z" fill="#a2661c"/>
+    <rect x="380" y="200" width="110" height="34" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="435" y="222" font-size="12" fill="#a2661c" text-anchor="middle">∂L/∂W⁽²⁾</text>
+    <path d="M374 216 H340" stroke="#a2661c" stroke-width="2" stroke-dasharray="5 3"/><path d="M346 211 L338 216 L346 221 z" fill="#a2661c"/>
+    <rect x="220" y="200" width="110" height="34" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="275" y="222" font-size="12" fill="#a2661c" text-anchor="middle">∂L/∂W⁽¹⁾</text>
+  </g>
+
+  <rect x="30" y="252" width="738" height="34" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="274" font-size="13" fill="#191d24">각 층이 오차에 <tspan fill="#3a45a0">얼마나 책임이 있는지</tspan>를 연쇄법칙으로 뒤에서부터 계산 — 코드로는 <tspan font-family="'SF Mono',monospace">loss.backward()</tspan> 한 줄.</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="238" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">미분과 적분은 서로 되돌리는 관계입니다 — 제곱과 루트처럼</text>
+
+  <rect x="70" y="76" width="220" height="80" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="180" y="108" font-size="14" fill="#191d24" text-anchor="middle">속도</text>
+  <text x="180" y="134" font-size="12.5" fill="#7b838d" text-anchor="middle">시속 60km</text>
+
+  <rect x="510" y="76" width="220" height="80" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="620" y="108" font-size="14" fill="#191d24" text-anchor="middle">거리</text>
+  <text x="620" y="134" font-size="12.5" fill="#7b838d" text-anchor="middle">2시간에 120km</text>
+
+  <path d="M300 100 H498" stroke="#0f7864" stroke-width="2"/><path d="M493 95 L500 100 L493 105 z" fill="#0f7864"/>
+  <text x="400" y="90" font-size="13" fill="#0f7864" text-anchor="middle">적분 (쌓으면)</text>
+
+  <path d="M498 138 H300" stroke="#a2661c" stroke-width="2"/><path d="M306 133 L298 138 L306 143 z" fill="#a2661c"/>
+  <text x="400" y="160" font-size="13" fill="#a2661c" text-anchor="middle">미분 (변화율을 보면)</text>
+
+  <rect x="70" y="180" width="660" height="42" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="400" y="206" font-size="13.5" fill="#191d24" text-anchor="middle">Chapter 02의 “제곱 ↔ 루트”, Chapter 07의 “지수 ↔ 로그” 와 같은 되돌리기 짝입니다.</text>
+</svg>

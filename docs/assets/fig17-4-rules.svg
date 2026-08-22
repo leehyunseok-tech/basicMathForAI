@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="268" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">외울 것은 다섯 줄입니다. 나머지는 컴퓨터가 합니다.</text>
+
+  <g font-size="14">
+    <rect x="30" y="56" width="738" height="30" fill="#191d24"/>
+    <text x="60" y="76" fill="#ffffff" font-size="12.5">원래 함수</text>
+    <text x="300" y="76" fill="#ffffff" font-size="12.5">미분하면</text>
+    <text x="520" y="76" fill="#ffffff" font-size="12.5">외우는 법</text>
+
+    <rect x="30" y="86" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="108" fill="#191d24">5 (상수)</text><text x="300" y="108" fill="#3a45a0">0</text>
+    <text x="520" y="108" font-size="12.5" fill="#7b838d">안 변하니까 기울기 0</text>
+
+    <rect x="30" y="118" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="60" y="140" fill="#191d24">3x</text><text x="300" y="140" fill="#3a45a0">3</text>
+    <text x="520" y="140" font-size="12.5" fill="#7b838d">직선의 기울기는 그대로</text>
+
+    <rect x="30" y="150" width="738" height="32" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="60" y="172" fill="#191d24">x²</text><text x="300" y="172" fill="#3a45a0">2x</text>
+    <text x="520" y="172" font-size="12.5" fill="#3a45a0">어깨 숫자를 앞으로, 1 줄이기</text>
+
+    <rect x="30" y="182" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="204" fill="#191d24">xⁿ</text><text x="300" y="204" fill="#3a45a0">n·xⁿ⁻¹</text>
+    <text x="520" y="204" font-size="12.5" fill="#7b838d">위와 같은 규칙</text>
+
+    <rect x="30" y="214" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="60" y="236" fill="#191d24">eˣ</text><text x="300" y="236" fill="#3a45a0">eˣ (그대로!)</text>
+    <text x="520" y="236" font-size="12.5" fill="#7b838d">e가 AI에 자주 쓰이는 이유</text>
+  </g>
+</svg>

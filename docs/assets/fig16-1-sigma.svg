@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">Σ 기호 해부 — 무서워 보이지만 부품은 네 개뿐입니다</text>
+
+  <text x="300" y="150" font-size="64" fill="#3a45a0" text-anchor="middle">Σ</text>
+  <text x="300" y="88" font-size="20" fill="#a2661c" text-anchor="middle">5</text>
+  <text x="300" y="196" font-size="20" fill="#0f7864" text-anchor="middle">i = 1</text>
+  <text x="400" y="152" font-size="26" fill="#191d24">xᵢ</text>
+
+  <line x1="330" y1="120" x2="392" y2="88" stroke="#3a45a0" stroke-width="1.2"/>
+  <line x1="322" y1="86" x2="392" y2="60" stroke="#a2661c" stroke-width="1.2"/>
+  <line x1="322" y1="192" x2="392" y2="216" stroke="#0f7864" stroke-width="1.2"/>
+  <line x1="424" y1="160" x2="424" y2="216" stroke="#191d24" stroke-width="1.2"/>
+
+  <text x="400" y="56" font-size="13" fill="#a2661c">어디까지 (끝 번호)</text>
+  <text x="400" y="84" font-size="13" fill="#3a45a0">전부 더하라는 기호</text>
+  <text x="400" y="222" font-size="13" fill="#0f7864">어디부터 (시작 번호)</text>
+  <text x="400" y="244" font-size="13" fill="#191d24">무엇을 (더할 대상)</text>
+
+  <rect x="30" y="220" width="330" height="42" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="195" y="246" font-size="14" fill="#191d24" text-anchor="middle">= x₁ + x₂ + x₃ + x₄ + x₅</text>
+
+  <rect x="30" y="60" width="240" height="140" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="150" y="88" font-size="13" fill="#191d24" text-anchor="middle">읽는 법</text>
+  <text x="150" y="122" font-size="12.5" fill="#4d5561" text-anchor="middle">“아이가 1부터 5까지</text>
+  <text x="150" y="146" font-size="12.5" fill="#4d5561" text-anchor="middle">엑스 아이를 전부 더한 것”</text>
+  <text x="150" y="180" font-size="12" fill="#7b838d" text-anchor="middle">소리 내어 읽으면 안 어렵습니다</text>
+</svg>

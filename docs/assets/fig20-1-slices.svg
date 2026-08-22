@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">적분 = 잘게 쪼개서 넓이 구하기. 잘게 쪼갤수록 정확해집니다.</text>
+
+  <g>
+    <rect x="30" y="56" width="240" height="170" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <path d="M54 200 C100 194, 140 160, 176 120 C200 94, 226 82, 246 78" fill="none" stroke="#3a45a0" stroke-width="2"/>
+    <g fill="#e5e7f4" stroke="#3a45a0" stroke-width="1">
+      <rect x="54" y="194" width="48" height="6"/>
+      <rect x="102" y="160" width="48" height="40"/>
+      <rect x="150" y="118" width="48" height="82"/>
+      <rect x="198" y="86" width="48" height="114"/>
+    </g>
+    <line x1="54" y1="200" x2="250" y2="200" stroke="#191d24" stroke-width="1.2"/>
+    <text x="150" y="248" font-size="12.5" fill="#a2661c" text-anchor="middle">4조각 — 대충 맞음</text>
+  </g>
+
+  <path d="M288 140 H320" stroke="#3a45a0" stroke-width="1.6"/><path d="M315 135 L322 140 L315 145 z" fill="#3a45a0"/>
+
+  <g>
+    <rect x="336" y="56" width="240" height="170" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <path d="M360 200 C406 194, 446 160, 482 120 C506 94, 532 82, 552 78" fill="none" stroke="#3a45a0" stroke-width="2"/>
+    <g fill="#e5e7f4" stroke="#3a45a0" stroke-width="0.6">
+      <rect x="360" y="196" width="16" height="4"/><rect x="376" y="190" width="16" height="10"/>
+      <rect x="392" y="180" width="16" height="20"/><rect x="408" y="168" width="16" height="32"/>
+      <rect x="424" y="154" width="16" height="46"/><rect x="440" y="138" width="16" height="62"/>
+      <rect x="456" y="124" width="16" height="76"/><rect x="472" y="110" width="16" height="90"/>
+      <rect x="488" y="98" width="16" height="102"/><rect x="504" y="90" width="16" height="110"/>
+      <rect x="520" y="84" width="16" height="116"/><rect x="536" y="80" width="16" height="120"/>
+    </g>
+    <line x1="360" y1="200" x2="556" y2="200" stroke="#191d24" stroke-width="1.2"/>
+    <text x="456" y="248" font-size="12.5" fill="#0f7864" text-anchor="middle">12조각 — 훨씬 정확</text>
+  </g>
+
+  <rect x="600" y="76" width="168" height="130" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="684" y="106" font-size="13" fill="#3a45a0" text-anchor="middle">무한히 잘게</text>
+  <text x="684" y="140" font-size="24" fill="#191d24" text-anchor="middle">∫</text>
+  <text x="684" y="172" font-size="12" fill="#4d5561" text-anchor="middle">S를 길게 늘인 모양</text>
+  <text x="684" y="192" font-size="12" fill="#4d5561" text-anchor="middle">Sum(합)의 S입니다</text>
+</svg>

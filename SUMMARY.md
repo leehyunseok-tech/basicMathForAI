@@ -28,11 +28,11 @@
 - [Chapter 15. 통계 — 데이터의 생김새 읽기](docs/part4/ch15-statistics.md) ✅
 
 ### Part 5. 미분과 적분 — 학습이 일어나는 원리
-- Chapter 16. 수열과 시그마 — 반복을 적는 언어 *(집필 예정)*
-- Chapter 17. 미분 — 변화의 속도를 보는 도구 *(집필 예정)*
-- Chapter 18. 편미분과 기울기 *(집필 예정)*
-- Chapter 19. 연쇄법칙과 경사하강법 *(집필 예정)*
-- Chapter 20. 적분 — 쌓인 값과 확률 *(집필 예정)*
+- [Chapter 16. 수열과 시그마 — 반복을 적는 언어](docs/part5/ch16-sequence-sigma.md) ✅
+- [Chapter 17. 미분 — 변화의 속도를 보는 도구](docs/part5/ch17-derivative.md) ✅
+- [Chapter 18. 편미분과 기울기](docs/part5/ch18-gradient.md) ✅
+- [Chapter 19. 연쇄법칙과 경사하강법](docs/part5/ch19-chain-rule-gd.md) ✅
+- [Chapter 20. 적분 — 쌓인 값과 확률](docs/part5/ch20-integral.md) ✅
 
 ### Part 6. 조립하기 — 배운 수학으로 AI 읽기
 - Chapter 21. AI 수식 해부하기 *(집필 예정)*

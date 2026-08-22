@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="248" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">미분 기호는 여러 가지지만 전부 같은 뜻입니다 — “기울기”</text>
+
+  <g font-size="13">
+    <rect x="30" y="58" width="738" height="30" fill="#191d24"/>
+    <text x="60" y="78" fill="#ffffff" font-size="12.5">기호</text>
+    <text x="220" y="78" fill="#ffffff" font-size="12.5">읽는 법</text>
+    <text x="430" y="78" fill="#ffffff" font-size="12.5">뜻</text>
+
+    <rect x="30" y="88" width="738" height="34" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="111" font-size="17" fill="#3a45a0">f′(x)</text>
+    <text x="220" y="111" fill="#191d24">에프 프라임 엑스</text>
+    <text x="430" y="111" fill="#4d5561">x에서 f의 기울기</text>
+
+    <rect x="30" y="122" width="738" height="34" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="60" y="145" font-size="17" fill="#3a45a0">dy/dx</text>
+    <text x="220" y="145" fill="#191d24">디와이 디엑스</text>
+    <text x="430" y="145" fill="#4d5561">x가 조금 변할 때 y의 변화량</text>
+
+    <rect x="30" y="156" width="738" height="34" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="179" font-size="17" fill="#3a45a0">∂L/∂w</text>
+    <text x="220" y="179" fill="#191d24">라운드 엘 라운드 더블유</text>
+    <text x="430" y="179" fill="#4d5561">w만 조금 바꿀 때 L의 변화량</text>
+  </g>
+
+  <rect x="30" y="202" width="738" height="34" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="224" font-size="13.5" fill="#191d24">dy/dx 는 분수처럼 생겼지만 나눗셈이 아닙니다. <tspan fill="#3a45a0">“y의 변화 ÷ x의 변화”를 나타내는 한 덩어리 기호</tspan>입니다.</text>
+</svg>

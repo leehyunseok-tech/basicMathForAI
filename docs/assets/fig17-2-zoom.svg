@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="268" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">곡선도 계속 확대하면 직선처럼 보입니다 — 미분의 핵심 아이디어</text>
+
+  <g>
+    <rect x="30" y="56" width="220" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <path d="M50 200 C90 196, 130 170, 160 120 C180 88, 210 74, 232 70" fill="none" stroke="#3a45a0" stroke-width="2.4"/>
+    <circle cx="160" cy="120" r="5" fill="#a2661c"/>
+    <rect x="140" y="100" width="40" height="40" fill="none" stroke="#a2661c" stroke-dasharray="3 2"/>
+    <text x="140" y="238" font-size="12.5" fill="#191d24" text-anchor="middle">전체를 보면 곡선</text>
+  </g>
+  <path d="M266 136 H298" stroke="#a2661c" stroke-width="1.6"/><path d="M293 131 L300 136 L293 141 z" fill="#a2661c"/>
+  <text x="282" y="124" font-size="11" fill="#a2661c" text-anchor="middle">확대</text>
+
+  <g>
+    <rect x="310" y="56" width="220" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <path d="M330 186 C370 176, 410 150, 450 116 C480 92, 500 82, 512 78" fill="none" stroke="#3a45a0" stroke-width="2.4"/>
+    <circle cx="420" cy="136" r="5" fill="#a2661c"/>
+    <rect x="404" y="120" width="32" height="32" fill="none" stroke="#a2661c" stroke-dasharray="3 2"/>
+    <text x="420" y="238" font-size="12.5" fill="#191d24" text-anchor="middle">더 확대하면 살짝 휨</text>
+  </g>
+  <path d="M546 136 H578" stroke="#a2661c" stroke-width="1.6"/><path d="M573 131 L580 136 L573 141 z" fill="#a2661c"/>
+  <text x="562" y="124" font-size="11" fill="#a2661c" text-anchor="middle">더 확대</text>
+
+  <g>
+    <rect x="590" y="56" width="178" height="160" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <line x1="608" y1="180" x2="752" y2="92" stroke="#3a45a0" stroke-width="2.8"/>
+    <circle cx="680" cy="136" r="5" fill="#a2661c"/>
+    <text x="679" y="238" font-size="12.5" fill="#3a45a0" text-anchor="middle">사실상 직선!</text>
+  </g>
+
+  <text x="30" y="258" font-size="13" fill="#7b838d">그 “아주 작게 확대했을 때의 직선 기울기”가 바로 <tspan fill="#3a45a0">그 지점에서의 미분값</tspan>입니다.</text>
+</svg>

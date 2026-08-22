@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">안개 낀 산에서 내려오는 법 — 전체 지형을 몰라도 발밑 경사만 알면 됩니다</text>
+
+  <rect x="30" y="58" width="380" height="200" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <ellipse cx="220" cy="158" rx="150" ry="80" fill="none" stroke="#d6dad1" stroke-width="1.2"/>
+  <ellipse cx="220" cy="158" rx="110" ry="58" fill="none" stroke="#d6dad1" stroke-width="1.2"/>
+  <ellipse cx="220" cy="158" rx="70" ry="36" fill="none" stroke="#d6dad1" stroke-width="1.2"/>
+  <ellipse cx="220" cy="158" rx="32" ry="16" fill="#dfeee9" stroke="#0f7864" stroke-width="1.4"/>
+  <text x="220" y="163" font-size="11.5" fill="#0f7864" text-anchor="middle">바닥</text>
+
+  <circle cx="110" cy="106" r="7" fill="#a2661c"/>
+  <text x="72" y="96" font-size="11.5" fill="#a2661c">지금 위치</text>
+
+  <g stroke="#7b838d" stroke-width="1.4" fill="none">
+    <path d="M110 106 L88 88"/><path d="M110 106 L136 90"/><path d="M110 106 L92 132"/>
+  </g>
+  <path d="M110 106 L166 138" stroke="#3a45a0" stroke-width="3"/>
+  <path d="M174 143 L157 141 L163 129 z" fill="#3a45a0"/>
+  <text x="170" y="112" font-size="12" fill="#3a45a0">가장 가파른 내리막</text>
+
+  <rect x="436" y="58" width="332" height="200" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="602" y="88" font-size="13.5" fill="#3a45a0" text-anchor="middle">gradient가 알려주는 것</text>
+  <text x="458" y="124" font-size="13" fill="#191d24">∇L 이 가리키는 방향 = <tspan fill="#a2661c">가장 가파른 오르막</tspan></text>
+  <text x="458" y="152" font-size="13" fill="#191d24">−∇L 방향 = <tspan fill="#0f7864">가장 가파른 내리막</tspan></text>
+  <text x="458" y="188" font-size="12.5" fill="#4d5561">그래서 학습식에 마이너스가 붙습니다.</text>
+  <text x="458" y="214" font-size="15" fill="#3a45a0">θ ← θ <tspan font-weight="bold">−</tspan> η ∇L</text>
+  <text x="458" y="240" font-size="12" fill="#7b838d">첫 화면의 그 수식입니다.</text>
+
+  <text x="30" y="282" font-size="13" fill="#7b838d">전체 지도를 그릴 필요가 없다는 게 핵심입니다. 파라미터 700억 개짜리 지형도 못 그리니까요.</text>
+</svg>

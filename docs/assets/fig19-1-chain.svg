@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">연쇄법칙 — 톱니바퀴가 물려 있으면 비율을 곱합니다</text>
+
+  <circle cx="150" cy="130" r="46" fill="#e5e7f4" stroke="#3a45a0" stroke-width="2"/>
+  <text x="150" y="136" font-size="14" fill="#3a45a0" text-anchor="middle">A</text>
+  <circle cx="272" cy="130" r="34" fill="#dfeee9" stroke="#0f7864" stroke-width="2"/>
+  <text x="272" y="136" font-size="14" fill="#0f7864" text-anchor="middle">B</text>
+  <circle cx="372" cy="130" r="26" fill="#f3e9d9" stroke="#a2661c" stroke-width="2"/>
+  <text x="372" y="136" font-size="14" fill="#a2661c" text-anchor="middle">C</text>
+
+  <text x="211" y="84" font-size="12.5" fill="#3a45a0" text-anchor="middle">2배</text>
+  <text x="322" y="90" font-size="12.5" fill="#0f7864" text-anchor="middle">3배</text>
+
+  <rect x="440" y="70" width="328" height="130" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="604" y="98" font-size="13.5" fill="#191d24" text-anchor="middle">A가 1 돌면 C는 몇 바퀴?</text>
+  <text x="604" y="134" font-size="18" fill="#3a45a0" text-anchor="middle">2 × 3 = 6바퀴</text>
+  <text x="604" y="170" font-size="12.5" fill="#7b838d" text-anchor="middle">중간 단계의 비율을 곱하면 됩니다</text>
+
+  <rect x="30" y="216" width="738" height="46" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="400" y="245" font-size="18" fill="#191d24" text-anchor="middle">dC/dA = (dC/dB) × (dB/dA)</text>
+</svg>

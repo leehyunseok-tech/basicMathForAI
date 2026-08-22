@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">미분은 “변화의 속도”를 재는 도구입니다. 자동차 속도계와 같은 개념입니다.</text>
+
+  <line x1="70" y1="240" x2="450" y2="240" stroke="#191d24" stroke-width="1.6"/>
+  <line x1="70" y1="240" x2="70" y2="66" stroke="#191d24" stroke-width="1.6"/>
+  <text x="260" y="266" font-size="12.5" fill="#191d24" text-anchor="middle">시간</text>
+  <text x="56" y="60" font-size="12.5" fill="#191d24" text-anchor="middle">거리</text>
+
+  <path d="M74 236 C140 232, 190 214, 240 170 C290 126, 340 100, 420 86" fill="none" stroke="#3a45a0" stroke-width="2.6"/>
+
+  <circle cx="150" cy="224" r="5.5" fill="#0f7864"/>
+  <line x1="106" y1="234" x2="200" y2="208" stroke="#0f7864" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="118" y="204" font-size="12" fill="#0f7864">완만 = 느림</text>
+
+  <circle cx="278" cy="146" r="5.5" fill="#a2661c"/>
+  <line x1="238" y1="184" x2="322" y2="110" stroke="#a2661c" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="316" y="168" font-size="12" fill="#a2661c">가파름 = 빠름</text>
+
+  <rect x="490" y="76" width="278" height="164" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="512" y="106" font-size="14" fill="#3a45a0">기울기 = 변화의 속도</text>
+  <text x="512" y="140" font-size="13" fill="#191d24">거리-시간 그래프 → 기울기는 속도</text>
+  <text x="512" y="166" font-size="13" fill="#191d24">손실-가중치 그래프 → 기울기는</text>
+  <text x="512" y="188" font-size="13" fill="#3a45a0">“w를 조금 바꾸면 오차가 얼마나 변하나”</text>
+  <text x="512" y="220" font-size="12.5" fill="#7b838d">우리에게 필요한 건 이 두 번째입니다.</text>
+</svg>

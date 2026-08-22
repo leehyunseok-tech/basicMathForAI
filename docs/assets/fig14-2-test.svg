@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="318" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="34" font-size="15" fill="#7b838d">직관이 크게 빗나가는 예 — 정확도 99% 검사에서 양성이 나왔다면?</text>
+  <text x="30" y="58" font-size="13" fill="#191d24">유병률 0.1% (1000명 중 1명) · 검사 정확도 99% · 전체 10,000명 기준</text>
+
+  <rect x="30" y="76" width="360" height="200" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="210" y="104" font-size="13.5" fill="#191d24" text-anchor="middle">실제로 병이 있는 사람 10명</text>
+  <rect x="60" y="118" width="300" height="26" fill="#dfeee9" stroke="#0f7864"/>
+  <text x="70" y="136" font-size="12" fill="#0f7864">양성으로 나옴: 약 10명</text>
+
+  <text x="210" y="176" font-size="13.5" fill="#191d24" text-anchor="middle">병이 없는 사람 9,990명</text>
+  <rect x="60" y="190" width="300" height="26" fill="#f3e9d9" stroke="#a2661c"/>
+  <text x="70" y="208" font-size="12" fill="#a2661c">그런데 1%가 양성으로 나옴: 약 100명</text>
+  <text x="210" y="248" font-size="13" fill="#7b838d" text-anchor="middle">→ 양성 판정을 받은 사람은 총 110명</text>
+
+  <rect x="410" y="76" width="358" height="200" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="589" y="106" font-size="14" fill="#3a45a0" text-anchor="middle">양성 110명 중 진짜 환자는 10명</text>
+  <rect x="440" y="126" width="300" height="34" fill="#ffffff" stroke="#d6dad1"/>
+  <rect x="440" y="126" width="27" height="34" fill="#0f7864"/>
+  <text x="470" y="180" font-size="11.5" fill="#0f7864">진짜 환자 10</text>
+  <text x="600" y="180" font-size="11.5" fill="#7b838d">잘못 나온 100</text>
+  <text x="589" y="222" font-size="20" fill="#191d24" text-anchor="middle">10 / 110 ≈ 9%</text>
+  <text x="589" y="252" font-size="13" fill="#3a45a0" text-anchor="middle">양성이어도 실제 환자일 확률은 9%뿐</text>
+
+  <rect x="30" y="288" width="738" height="26" rx="3" fill="#ffffff" stroke="#a2661c"/>
+  <text x="48" y="306" font-size="13" fill="#191d24">이유: <tspan fill="#a2661c">원래 드문 병이라서</tspan>, 건강한 사람이 워낙 많아 그 1%의 오류가 진짜 환자 수를 압도합니다.</text>
+</svg>

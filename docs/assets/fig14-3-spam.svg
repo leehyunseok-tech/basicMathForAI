@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="268" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">스팸 필터 — 베이즈 정리가 실제로 돌아가는 자리</text>
+
+  <rect x="30" y="58" width="200" height="80" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="130" y="86" font-size="12.5" fill="#7b838d" text-anchor="middle">처음 믿음 (사전확률)</text>
+  <text x="130" y="116" font-size="15" fill="#191d24" text-anchor="middle">스팸일 확률 20%</text>
+
+  <path d="M244 98 H286" stroke="#3a45a0" stroke-width="1.8"/><path d="M281 93 L288 98 L281 103 z" fill="#3a45a0"/>
+
+  <rect x="296" y="58" width="200" height="80" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+  <text x="396" y="86" font-size="12.5" fill="#a2661c" text-anchor="middle">새 증거</text>
+  <text x="396" y="116" font-size="15" fill="#191d24" text-anchor="middle">“무료” 라는 단어 발견</text>
+
+  <path d="M510 98 H552" stroke="#3a45a0" stroke-width="1.8"/><path d="M547 93 L554 98 L547 103 z" fill="#3a45a0"/>
+
+  <rect x="562" y="58" width="206" height="80" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="665" y="86" font-size="12.5" fill="#3a45a0" text-anchor="middle">갱신된 믿음 (사후확률)</text>
+  <text x="665" y="116" font-size="15" fill="#191d24" text-anchor="middle">스팸일 확률 78%</text>
+
+  <rect x="30" y="158" width="738" height="88" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="50" y="184" font-size="13.5" fill="#191d24">단어를 하나씩 볼 때마다 이 과정을 반복합니다.</text>
+  <text x="50" y="210" font-size="13" fill="#4d5561">“무료” → 78% &#160;→&#160; “당첨” → 94% &#160;→&#160; “클릭” → 99% &#160;→&#160; 스팸함으로</text>
+  <text x="50" y="234" font-size="12.5" fill="#7b838d">확률을 계속 곱하니 값이 아주 작아집니다 → Chapter 07에서 배운 로그를 씌워 계산합니다.</text>
+</svg>

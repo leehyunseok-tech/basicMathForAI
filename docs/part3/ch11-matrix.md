@@ -288,4 +288,4 @@ Part 5에서 드디어 골짜기를 내려갑니다.
 
 | ⬅️ 이전 | 다음 ➡️ |
 |---|---|
-| [Chapter 10. 내적](ch10-dot-product.md) | Chapter 12. 경우의 수 *(집필 예정)* |
+| [Chapter 10. 내적](ch10-dot-product.md) | [Chapter 12. 경우의 수 — 세는 법부터](../part4/ch12-counting.md) |

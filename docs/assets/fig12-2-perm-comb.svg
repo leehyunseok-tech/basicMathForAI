@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">순열과 조합의 차이는 딱 하나 — “순서가 중요한가?”</text>
+  <text x="30" y="60" font-size="13.5" fill="#191d24">A, B, C 세 명 중 2명을 뽑는 경우</text>
+
+  <g>
+    <rect x="30" y="76" width="360" height="196" rx="4" fill="#ffffff" stroke="#3a45a0"/>
+    <text x="210" y="104" font-size="14" fill="#3a45a0" text-anchor="middle">순열 — 1등, 2등을 뽑는다</text>
+    <text x="210" y="126" font-size="12.5" fill="#7b838d" text-anchor="middle">(A가 1등, B가 2등) ≠ (B가 1등, A가 2등)</text>
+    <g font-size="13" fill="#191d24" text-anchor="middle">
+      <text x="90" y="160">AB</text><text x="170" y="160">BA</text><text x="250" y="160">AC</text>
+      <text x="330" y="160">CA</text><text x="130" y="190">BC</text><text x="250" y="190">CB</text>
+    </g>
+    <text x="210" y="228" font-size="18" fill="#3a45a0" text-anchor="middle">6가지</text>
+    <text x="210" y="254" font-size="12.5" fill="#4d5561" text-anchor="middle">3 × 2 = 6</text>
+  </g>
+
+  <g>
+    <rect x="410" y="76" width="358" height="196" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+    <text x="589" y="104" font-size="14" fill="#0f7864" text-anchor="middle">조합 — 대표 2명을 뽑는다</text>
+    <text x="589" y="126" font-size="12.5" fill="#7b838d" text-anchor="middle">(A, B) = (B, A) — 같은 팀입니다</text>
+    <g font-size="13" fill="#191d24" text-anchor="middle">
+      <text x="490" y="160">AB</text><text x="589" y="160">AC</text><text x="688" y="160">BC</text>
+    </g>
+    <text x="589" y="228" font-size="18" fill="#0f7864" text-anchor="middle">3가지</text>
+    <text x="589" y="254" font-size="12.5" fill="#4d5561" text-anchor="middle">6 ÷ 2 = 3 (순서 중복을 나눔)</text>
+  </g>
+
+  <text x="30" y="292" font-size="13" fill="#7b838d">조합 = 순열 ÷ (뽑은 것들을 줄 세우는 경우의 수). 중복해서 센 만큼 나눠 주는 것뿐입니다.</text>
+</svg>

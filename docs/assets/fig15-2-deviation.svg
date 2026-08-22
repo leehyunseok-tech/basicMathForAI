@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">평균이 같아도 완전히 다른 데이터일 수 있습니다</text>
+
+  <g>
+    <rect x="30" y="58" width="360" height="180" rx="4" fill="#ffffff" stroke="#0f7864"/>
+    <text x="210" y="84" font-size="13" fill="#0f7864" text-anchor="middle">A반 — 평균 70점</text>
+    <line x1="60" y1="180" x2="360" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="210" y1="192" x2="210" y2="100" stroke="#a2661c" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <g fill="#0f7864">
+      <circle cx="186" cy="164" r="5"/><circle cx="198" cy="164" r="5"/><circle cx="210" cy="164" r="5"/>
+      <circle cx="222" cy="164" r="5"/><circle cx="234" cy="164" r="5"/>
+      <circle cx="192" cy="150" r="5"/><circle cx="216" cy="150" r="5"/><circle cx="228" cy="150" r="5"/>
+    </g>
+    <text x="210" y="212" font-size="12.5" fill="#191d24" text-anchor="middle">전원이 68~73점</text>
+    <text x="210" y="230" font-size="12" fill="#7b838d" text-anchor="middle">모여 있음 → 편차 작음</text>
+  </g>
+
+  <g>
+    <rect x="410" y="58" width="358" height="180" rx="4" fill="#ffffff" stroke="#a2661c"/>
+    <text x="589" y="84" font-size="13" fill="#a2661c" text-anchor="middle">B반 — 평균 70점</text>
+    <line x1="440" y1="180" x2="740" y2="180" stroke="#191d24" stroke-width="1.2"/>
+    <line x1="589" y1="192" x2="589" y2="100" stroke="#a2661c" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <g fill="#a2661c">
+      <circle cx="456" cy="164" r="5"/><circle cx="478" cy="164" r="5"/><circle cx="500" cy="150" r="5"/>
+      <circle cx="672" cy="164" r="5"/><circle cx="700" cy="164" r="5"/><circle cx="724" cy="150" r="5"/>
+      <circle cx="468" cy="150" r="5"/><circle cx="712" cy="164" r="5"/>
+    </g>
+    <text x="589" y="212" font-size="12.5" fill="#191d24" text-anchor="middle">30점대와 100점대로 갈림</text>
+    <text x="589" y="230" font-size="12" fill="#7b838d" text-anchor="middle">흩어져 있음 → 편차 큼</text>
+  </g>
+
+  <rect x="30" y="252" width="738" height="34" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="274" font-size="13.5" fill="#191d24">평균만으로는 이 차이를 알 수 없습니다. <tspan fill="#3a45a0">얼마나 흩어져 있는지</tspan>를 재는 숫자가 따로 필요합니다.</text>
+</svg>

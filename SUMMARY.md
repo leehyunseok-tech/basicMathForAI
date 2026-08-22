@@ -22,10 +22,10 @@
 - [Chapter 11. 행렬과 행렬 곱 — 신경망 한 층의 정체](docs/part3/ch11-matrix.md) ✅
 
 ### Part 4. 확률과 통계 — '아마도'를 다루는 법
-- Chapter 12. 경우의 수 — 세는 법부터 *(집필 예정)*
-- Chapter 13. 확률과 기댓값 *(집필 예정)*
-- Chapter 14. 조건부확률과 베이즈 정리 *(집필 예정)*
-- Chapter 15. 통계 — 데이터의 생김새 읽기 *(집필 예정)*
+- [Chapter 12. 경우의 수 — 세는 법부터](docs/part4/ch12-counting.md) ✅
+- [Chapter 13. 확률과 기댓값](docs/part4/ch13-probability.md) ✅
+- [Chapter 14. 조건부확률과 베이즈 정리](docs/part4/ch14-bayes.md) ✅
+- [Chapter 15. 통계 — 데이터의 생김새 읽기](docs/part4/ch15-statistics.md) ✅
 
 ### Part 5. 미분과 적분 — 학습이 일어나는 원리
 - Chapter 16. 수열과 시그마 — 반복을 적는 언어 *(집필 예정)*

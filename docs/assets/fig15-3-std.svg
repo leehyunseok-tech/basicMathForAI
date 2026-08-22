@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">표준편차 = “평균에서 평균적으로 얼마나 떨어져 있나” · Chapter 06과 똑같은 순서입니다</text>
+
+  <g>
+    <rect x="30" y="58" width="170" height="200" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+    <text x="115" y="84" font-size="12.5" fill="#3a45a0" text-anchor="middle">① 평균에서 뺀다</text>
+    <text x="115" y="112" font-size="12" fill="#7b838d" text-anchor="middle">데이터 60,70,80 (평균 70)</text>
+    <text x="115" y="146" font-size="13" fill="#191d24" text-anchor="middle">60 − 70 = −10</text>
+    <text x="115" y="172" font-size="13" fill="#191d24" text-anchor="middle">70 − 70 = 0</text>
+    <text x="115" y="198" font-size="13" fill="#191d24" text-anchor="middle">80 − 70 = +10</text>
+    <text x="115" y="234" font-size="12" fill="#a2661c" text-anchor="middle">그냥 더하면 0 (상쇄!)</text>
+  </g>
+  <path d="M212 158 H240" stroke="#7b838d" stroke-width="1.5"/><path d="M235 153 L242 158 L235 163 z" fill="#7b838d"/>
+
+  <g>
+    <rect x="250" y="58" width="170" height="200" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+    <text x="335" y="84" font-size="12.5" fill="#3a45a0" text-anchor="middle">② 제곱해서 평균</text>
+    <text x="335" y="118" font-size="13" fill="#191d24" text-anchor="middle">(−10)² = 100</text>
+    <text x="335" y="144" font-size="13" fill="#191d24" text-anchor="middle">0² = 0</text>
+    <text x="335" y="170" font-size="13" fill="#191d24" text-anchor="middle">10² = 100</text>
+    <text x="335" y="204" font-size="13" fill="#3a45a0" text-anchor="middle">평균 = 200/3 ≈ 67</text>
+    <text x="335" y="234" font-size="12" fill="#7b838d" text-anchor="middle">이걸 분산이라 부릅니다</text>
+  </g>
+  <path d="M432 158 H460" stroke="#7b838d" stroke-width="1.5"/><path d="M455 153 L462 158 L455 163 z" fill="#7b838d"/>
+
+  <g>
+    <rect x="470" y="58" width="170" height="200" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+    <text x="555" y="84" font-size="12.5" fill="#0f7864" text-anchor="middle">③ 루트로 되돌린다</text>
+    <text x="555" y="132" font-size="17" fill="#191d24" text-anchor="middle">√67 ≈ 8.2</text>
+    <text x="555" y="176" font-size="12.5" fill="#0f7864" text-anchor="middle">표준편차 = 8.2점</text>
+    <text x="555" y="212" font-size="12" fill="#7b838d" text-anchor="middle">제곱하면서 커진 단위를</text>
+    <text x="555" y="232" font-size="12" fill="#7b838d" text-anchor="middle">원래 “점”으로 되돌림</text>
+  </g>
+
+  <rect x="654" y="58" width="114" height="200" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="711" y="88" font-size="12.5" fill="#a2661c" text-anchor="middle">어디서 봤죠?</text>
+  <text x="711" y="124" font-size="12" fill="#4d5561" text-anchor="middle">Chapter 06</text>
+  <text x="711" y="146" font-size="12" fill="#4d5561" text-anchor="middle">손실 함수</text>
+  <text x="711" y="180" font-size="12" fill="#4d5561" text-anchor="middle">빼고 → 제곱</text>
+  <text x="711" y="202" font-size="12" fill="#4d5561" text-anchor="middle">→ 평균</text>
+  <text x="711" y="234" font-size="12" fill="#a2661c" text-anchor="middle">같은 순서입니다</text>
+</svg>

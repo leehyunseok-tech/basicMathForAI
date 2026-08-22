@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">기댓값 = “한 번 할 때 평균적으로 얼마쯤 얻는가”</text>
+  <text x="30" y="60" font-size="13.5" fill="#191d24">참가비 1,000원인 뽑기 — 할 만한가?</text>
+
+  <g font-size="13">
+    <rect x="30" y="76" width="440" height="28" fill="#191d24"/>
+    <text x="54" y="95" fill="#ffffff" font-size="12.5">결과</text>
+    <text x="200" y="95" fill="#ffffff" font-size="12.5">확률</text>
+    <text x="330" y="95" fill="#ffffff" font-size="12.5">상금</text>
+
+    <rect x="30" y="104" width="440" height="28" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="54" y="123" fill="#191d24">1등</text><text x="200" y="123" fill="#4d5561">0.01</text><text x="330" y="123" fill="#0f7864">50,000원</text>
+    <rect x="30" y="132" width="440" height="28" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="54" y="151" fill="#191d24">2등</text><text x="200" y="151" fill="#4d5561">0.09</text><text x="330" y="151" fill="#0f7864">3,000원</text>
+    <rect x="30" y="160" width="440" height="28" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="54" y="179" fill="#191d24">꽝</text><text x="200" y="179" fill="#4d5561">0.90</text><text x="330" y="179" fill="#a2661c">0원</text>
+  </g>
+
+  <rect x="30" y="204" width="440" height="60" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="228" font-size="14" fill="#191d24">0.01×50000 + 0.09×3000 + 0.90×0</text>
+  <text x="50" y="252" font-size="15" fill="#3a45a0">= 500 + 270 + 0 = <tspan font-weight="bold">770원</tspan></text>
+
+  <rect x="500" y="76" width="268" height="188" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="634" y="106" font-size="14" fill="#a2661c" text-anchor="middle">판단</text>
+  <text x="634" y="142" font-size="14" fill="#191d24" text-anchor="middle">참가비 1,000원</text>
+  <text x="634" y="168" font-size="14" fill="#191d24" text-anchor="middle">기댓값 770원</text>
+  <text x="634" y="204" font-size="13.5" fill="#a2661c" text-anchor="middle">한 번 할 때마다</text>
+  <text x="634" y="226" font-size="13.5" fill="#a2661c" text-anchor="middle">평균 230원씩 손해</text>
+  <text x="634" y="252" font-size="12.5" fill="#7b838d" text-anchor="middle">→ 하지 않는 게 낫습니다</text>
+
+  <text x="30" y="276" font-size="0" fill="#7b838d"> </text>
+</svg>

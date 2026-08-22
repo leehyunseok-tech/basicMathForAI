@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="34" font-size="15" fill="#7b838d">수형도 — 갈래를 하나씩 그려서 빠짐없이 세는 법</text>
+  <text x="30" y="58" font-size="13.5" fill="#191d24">상의 2종(흰T, 검T) × 하의 3종(청바지, 슬랙스, 반바지)</text>
+
+  <circle cx="70" cy="176" r="7" fill="#191d24"/>
+  <g stroke="#7b838d" stroke-width="1.4" fill="none">
+    <path d="M78 173 L158 122"/><path d="M78 180 L158 232"/>
+  </g>
+  <rect x="162" y="104" width="76" height="34" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="200" y="126" font-size="13" fill="#3a45a0" text-anchor="middle">흰T</text>
+  <rect x="162" y="216" width="76" height="34" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+  <text x="200" y="238" font-size="13" fill="#0f7864" text-anchor="middle">검T</text>
+
+  <g stroke="#d6dad1" stroke-width="1.2" fill="none">
+    <path d="M240 116 L316 92"/><path d="M240 121 L316 133"/><path d="M240 128 L316 174"/>
+    <path d="M240 228 L316 206"/><path d="M240 233 L316 247"/><path d="M240 238 L316 288"/>
+  </g>
+  <g font-size="12.5" text-anchor="middle" fill="#191d24">
+    <rect x="320" y="78" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="97">청바지</text>
+    <rect x="320" y="119" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="138">슬랙스</text>
+    <rect x="320" y="160" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="179">반바지</text>
+    <rect x="320" y="192" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="211">청바지</text>
+    <rect x="320" y="233" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="252">슬랙스</text>
+    <rect x="320" y="264" width="96" height="28" rx="3" fill="#ffffff" stroke="#e4e7df"/><text x="368" y="283">반바지</text>
+  </g>
+  <g font-size="12" fill="#7b838d">
+    <text x="426" y="97">①</text><text x="426" y="138">②</text><text x="426" y="179">③</text>
+    <text x="426" y="211">④</text><text x="426" y="252">⑤</text><text x="426" y="283">⑥</text>
+  </g>
+
+  <rect x="480" y="118" width="288" height="112" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="624" y="150" font-size="14" fill="#3a45a0" text-anchor="middle">빠짐없이 세어보면 6가지</text>
+  <text x="624" y="186" font-size="20" fill="#191d24" text-anchor="middle">2 × 3 = 6</text>
+  <text x="624" y="214" font-size="12.5" fill="#4d5561" text-anchor="middle">이게 곱의 법칙입니다</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">경우의 수는 금방 폭발합니다 — 그래서 AI는 “전부 세기”를 포기합니다</text>
+
+  <g font-size="13.5">
+    <rect x="30" y="58" width="738" height="30" fill="#191d24"/>
+    <text x="60" y="78" fill="#ffffff" font-size="12.5">문제</text>
+    <text x="400" y="78" fill="#ffffff" font-size="12.5">경우의 수</text>
+    <text x="620" y="78" fill="#ffffff" font-size="12.5">전부 세면</text>
+
+    <rect x="30" y="88" width="738" height="30" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="108" fill="#191d24">옷 고르기 (2×3)</text><text x="400" y="108" fill="#4d5561">6</text><text x="620" y="108" fill="#0f7864">순식간</text>
+
+    <rect x="30" y="118" width="738" height="30" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="60" y="138" fill="#191d24">로또 (45개 중 6개)</text><text x="400" y="138" fill="#4d5561">814만</text><text x="620" y="138" fill="#0f7864">컴퓨터로 몇 초</text>
+
+    <rect x="30" y="148" width="738" height="30" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="60" y="168" fill="#191d24">바둑 한 판의 모든 수순</text><text x="400" y="168" fill="#a2661c">10의 360제곱</text><text x="620" y="168" fill="#a2661c">우주가 끝나도 못 셈</text>
+
+    <rect x="30" y="178" width="738" height="30" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="60" y="198" fill="#191d24">단어 20개짜리 문장</text><text x="400" y="198" fill="#a2661c">5만의 20제곱</text><text x="620" y="198" fill="#a2661c">불가능</text>
+  </g>
+
+  <rect x="30" y="220" width="738" height="48" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="240" font-size="13.5" fill="#191d24">그래서 AI는 전부 세는 대신 <tspan fill="#3a45a0">“그럴듯한 것 몇 개만 확률로 골라” 봅니다.</tspan></text>
+  <text x="50" y="260" font-size="13" fill="#7b838d">알파고의 몬테카를로 탐색도, 챗봇이 다음 단어를 뽑는 것도 전부 이 전략입니다.</text>
+</svg>

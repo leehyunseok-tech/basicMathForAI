@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">정규분포 — 자연에서 가장 흔한 종 모양. 표준편차만 알면 전체가 읽힙니다.</text>
+
+  <line x1="80" y1="230" x2="620" y2="230" stroke="#191d24" stroke-width="1.5"/>
+  <g stroke="#d6dad1" stroke-width="1" stroke-dasharray="4 3">
+    <line x1="215" y1="230" x2="215" y2="150"/><line x1="260" y1="230" x2="260" y2="112"/>
+    <line x1="350" y1="230" x2="350" y2="72"/>
+    <line x1="440" y1="230" x2="440" y2="112"/><line x1="485" y1="230" x2="485" y2="150"/>
+  </g>
+  <path d="M92 228 C160 226, 200 200, 240 150 C280 100, 320 78, 350 78 C380 78, 420 100, 460 150 C500 200, 540 226, 608 228"
+        fill="#e5e7f4" stroke="#3a45a0" stroke-width="2.6"/>
+  <line x1="350" y1="242" x2="350" y2="72" stroke="#a2661c" stroke-width="1.6"/>
+  <text x="350" y="262" font-size="12.5" fill="#a2661c" text-anchor="middle">평균</text>
+
+  <g font-size="11.5" fill="#7b838d" text-anchor="middle">
+    <text x="260" y="250">−1σ</text><text x="440" y="250">+1σ</text>
+    <text x="215" y="266">−2σ</text><text x="485" y="266">+2σ</text>
+  </g>
+
+  <rect x="646" y="70" width="124" height="160" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="708" y="98" font-size="12.5" fill="#191d24" text-anchor="middle">68 · 95 · 99.7</text>
+  <text x="708" y="128" font-size="12" fill="#3a45a0" text-anchor="middle">±1σ 안에 68%</text>
+  <text x="708" y="152" font-size="12" fill="#3a45a0" text-anchor="middle">±2σ 안에 95%</text>
+  <text x="708" y="176" font-size="12" fill="#3a45a0" text-anchor="middle">±3σ 안에 99.7%</text>
+  <text x="708" y="210" font-size="11.5" fill="#7b838d" text-anchor="middle">이 세 숫자만</text>
+  <text x="708" y="226" font-size="11.5" fill="#7b838d" text-anchor="middle">기억하면 됩니다</text>
+
+  <text x="30" y="286" font-size="13" fill="#7b838d">키, 시험 점수, 측정 오차, 신경망 가중치 초깃값 — 전부 이 모양을 씁니다.</text>
+</svg>

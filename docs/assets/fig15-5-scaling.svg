@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">단위가 다르면 AI가 큰 숫자만 중요하다고 착각합니다</text>
+
+  <rect x="30" y="58" width="352" height="130" rx="4" fill="#ffffff" stroke="#a2661c"/>
+  <text x="206" y="84" font-size="13" fill="#a2661c" text-anchor="middle">그대로 넣으면</text>
+  <g font-size="12.5">
+    <text x="50" y="112" fill="#191d24">연봉</text><rect x="120" y="102" width="240" height="14" fill="#a2661c"/>
+    <text x="50" y="140" fill="#191d24">나이</text><rect x="120" y="130" width="3" height="14" fill="#7b838d"/>
+    <text x="50" y="168" fill="#191d24">자녀 수</text><rect x="120" y="158" width="1" height="14" fill="#7b838d"/>
+  </g>
+  <text x="206" y="182" font-size="0" fill="#fff"> </text>
+
+  <rect x="418" y="58" width="350" height="130" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+  <text x="593" y="84" font-size="13" fill="#0f7864" text-anchor="middle">같은 자로 맞추면</text>
+  <g font-size="12.5">
+    <text x="438" y="112" fill="#191d24">연봉</text><rect x="508" y="102" width="120" height="14" fill="#3a45a0"/>
+    <text x="438" y="140" fill="#191d24">나이</text><rect x="508" y="130" width="150" height="14" fill="#3a45a0"/>
+    <text x="438" y="168" fill="#191d24">자녀 수</text><rect x="508" y="158" width="90" height="14" fill="#3a45a0"/>
+  </g>
+
+  <g font-size="13">
+    <rect x="30" y="204" width="368" height="76" rx="4" fill="#ffffff" stroke="#3a45a0"/>
+    <text x="50" y="228" fill="#3a45a0">표준화 (Standardization)</text>
+    <text x="50" y="252" fill="#191d24">(값 − 평균) ÷ 표준편차</text>
+    <text x="50" y="272" font-size="12" fill="#7b838d">→ 평균 0, 표준편차 1로 · 이상치에 강함</text>
+
+    <rect x="418" y="204" width="350" height="76" rx="4" fill="#ffffff" stroke="#0f7864"/>
+    <text x="438" y="228" fill="#0f7864">정규화 (Normalization)</text>
+    <text x="438" y="252" fill="#191d24">(값 − 최소) ÷ (최대 − 최소)</text>
+    <text x="438" y="272" font-size="12" fill="#7b838d">→ 전부 0~1 사이로 · 이미지 픽셀에 자주 씀</text>
+  </g>
+</svg>

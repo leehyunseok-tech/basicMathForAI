@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">숫자 100개를 나열하면 아무것도 안 보이지만, 막대로 세워 보면 모양이 보입니다</text>
+
+  <rect x="30" y="58" width="250" height="180" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="155" y="82" font-size="12.5" fill="#a2661c" text-anchor="middle">숫자를 그냥 나열하면</text>
+  <g font-size="11" fill="#4d5561" font-family="'SF Mono',Menlo,Consolas,monospace">
+    <text x="46" y="106">62 74 68 55 81 70 66</text>
+    <text x="46" y="126">73 59 77 71 64 69 80</text>
+    <text x="46" y="146">67 72 58 75 63 70 68</text>
+    <text x="46" y="166">76 61 74 66 79 71 65</text>
+    <text x="46" y="186">70 57 73 69 78 62 72</text>
+  </g>
+  <text x="155" y="216" font-size="12.5" fill="#a2661c" text-anchor="middle">뭐가 뭔지 모르겠습니다</text>
+
+  <path d="M296 148 H336" stroke="#3a45a0" stroke-width="1.8"/><path d="M331 143 L338 148 L331 153 z" fill="#3a45a0"/>
+
+  <rect x="352" y="58" width="416" height="180" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <line x1="386" y1="210" x2="740" y2="210" stroke="#191d24" stroke-width="1.4"/>
+  <line x1="386" y1="210" x2="386" y2="82" stroke="#191d24" stroke-width="1.4"/>
+  <g fill="#3a45a0">
+    <rect x="398" y="196" width="42" height="14"/>
+    <rect x="446" y="172" width="42" height="38"/>
+    <rect x="494" y="130" width="42" height="80"/>
+    <rect x="542" y="100" width="42" height="110"/>
+    <rect x="590" y="136" width="42" height="74"/>
+    <rect x="638" y="178" width="42" height="32"/>
+    <rect x="686" y="200" width="42" height="10"/>
+  </g>
+  <g font-size="10.5" fill="#7b838d" text-anchor="middle">
+    <text x="419" y="226">50</text><text x="467" y="226">55</text><text x="515" y="226">60</text>
+    <text x="563" y="226">65</text><text x="611" y="226">70</text><text x="659" y="226">75</text><text x="707" y="226">80</text>
+  </g>
+  <text x="563" y="92" font-size="11.5" fill="#3a45a0" text-anchor="middle">가운데가 가장 두껍다</text>
+
+  <text x="30" y="266" font-size="13" fill="#7b838d">히스토그램 = 값을 구간으로 나눠 “몇 개 있는지”를 막대로 세운 것. 데이터를 보는 첫 단계입니다.</text>
+</svg>

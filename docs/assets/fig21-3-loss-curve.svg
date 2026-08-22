@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="278" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">−log ŷ 의 모양 — 정답에 확신이 없을수록 벌점이 폭증합니다</text>
+
+  <line x1="90" y1="230" x2="470" y2="230" stroke="#191d24" stroke-width="1.5"/>
+  <line x1="90" y1="230" x2="90" y2="66" stroke="#191d24" stroke-width="1.5"/>
+  <text x="280" y="256" font-size="12.5" fill="#191d24" text-anchor="middle">정답에 준 확률 ŷ →</text>
+  <text x="74" y="60" font-size="12.5" fill="#191d24" text-anchor="middle">손실</text>
+  <g font-size="11.5" fill="#7b838d" text-anchor="middle">
+    <text x="185" y="248">0.25</text><text x="280" y="248">0.5</text><text x="375" y="248">0.75</text><text x="464" y="248">1.0</text>
+  </g>
+
+  <path d="M110 76 C140 150, 175 186, 230 206 C300 222, 400 228, 464 230" fill="none" stroke="#3a45a0" stroke-width="2.8"/>
+  <circle cx="464" cy="230" r="6" fill="#0f7864"/>
+  <text x="446" y="216" font-size="12" fill="#0f7864" text-anchor="end">확신하고 맞음 → 손실 0</text>
+  <circle cx="120" cy="98" r="6" fill="#a2661c"/>
+  <text x="136" y="94" font-size="12" fill="#a2661c">확신 없음 → 손실 폭증</text>
+
+  <rect x="510" y="80" width="258" height="150" rx="4" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="530" y="108" font-size="13.5" fill="#191d24">정답에 준 확률과 손실</text>
+  <g font-size="12.5">
+    <text x="530" y="138" fill="#0f7864">0.99 → 0.01</text>
+    <text x="530" y="162" fill="#4d5561">0.50 → 0.69</text>
+    <text x="530" y="186" fill="#a2661c">0.10 → 2.30</text>
+    <text x="530" y="210" fill="#a2661c">0.01 → 4.61</text>
+  </g>
+</svg>

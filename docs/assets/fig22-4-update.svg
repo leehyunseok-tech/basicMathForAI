@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="800" height="290" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="288" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#3a45a0">③ 갱신 — θ ← θ − η × 기울기 &#160;(학습률 η = 0.1)</text>
+
+  <g font-size="13.5">
+    <rect x="30" y="56" width="738" height="30" fill="#191d24"/>
+    <text x="56" y="76" fill="#ffffff" font-size="12.5">파라미터</text>
+    <text x="190" y="76" fill="#ffffff" font-size="12.5">이전</text>
+    <text x="300" y="76" fill="#ffffff" font-size="12.5">계산</text>
+    <text x="630" y="76" fill="#ffffff" font-size="12.5">새 값</text>
+
+    <rect x="30" y="86" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="108" fill="#191d24">w₁</text><text x="190" y="108" fill="#7b838d">0.5</text>
+    <text x="300" y="108" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">0.5 − 0.1 × (−0.6)</text>
+    <text x="630" y="108" fill="#0f7864">0.56</text>
+
+    <rect x="30" y="118" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="140" fill="#191d24">b₁</text><text x="190" y="140" fill="#7b838d">0</text>
+    <text x="300" y="140" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">0 − 0.1 × (−0.3)</text>
+    <text x="630" y="140" fill="#0f7864">0.03</text>
+
+    <rect x="30" y="150" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="172" fill="#191d24">w₂</text><text x="190" y="172" fill="#7b838d">0.3</text>
+    <text x="300" y="172" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">0.3 − 0.1 × (−1.0)</text>
+    <text x="630" y="172" fill="#0f7864">0.4</text>
+
+    <rect x="30" y="182" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="204" fill="#191d24">b₂</text><text x="190" y="204" fill="#7b838d">0.2</text>
+    <text x="300" y="204" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">0.2 − 0.1 × (−1.0)</text>
+    <text x="630" y="204" fill="#0f7864">0.3</text>
+  </g>
+
+  <rect x="30" y="228" width="360" height="50" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+  <text x="210" y="250" font-size="13" fill="#a2661c" text-anchor="middle">갱신 전 손실</text>
+  <text x="210" y="270" font-size="17" fill="#a2661c" text-anchor="middle">L = 0.25</text>
+
+  <path d="M404 253 H436" stroke="#0f7864" stroke-width="2"/><path d="M431 248 L438 253 L431 258 z" fill="#0f7864"/>
+
+  <rect x="452" y="228" width="316" height="50" rx="4" fill="#dfeee9" stroke="#0f7864"/>
+  <text x="610" y="250" font-size="13" fill="#0f7864" text-anchor="middle">갱신 후 손실 (ŷ = 0.76)</text>
+  <text x="610" y="270" font-size="17" fill="#0f7864" text-anchor="middle">L = 0.0576 &#160;— 확실히 줄었습니다</text>
+</svg>

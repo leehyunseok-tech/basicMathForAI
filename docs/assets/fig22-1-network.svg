@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">손으로 굴려볼 아주 작은 신경망 — 뉴런 2개, 파라미터 4개</text>
+
+  <circle cx="110" cy="130" r="24" fill="#e5e7f4" stroke="#3a45a0" stroke-width="1.8"/>
+  <text x="110" y="136" font-size="15" fill="#3a45a0" text-anchor="middle">x</text>
+  <text x="110" y="180" font-size="12.5" fill="#7b838d" text-anchor="middle">입력 = 2</text>
+
+  <path d="M136 130 H236" stroke="#191d24" stroke-width="1.6"/><path d="M231 125 L238 130 L231 135 z" fill="#191d24"/>
+  <text x="186" y="118" font-size="12" fill="#3a45a0" text-anchor="middle">w₁=0.5, b₁=0</text>
+
+  <circle cx="266" cy="130" r="28" fill="#ffffff" stroke="#0f7864" stroke-width="1.8"/>
+  <text x="266" y="127" font-size="13" fill="#0f7864" text-anchor="middle">1층</text>
+  <text x="266" y="143" font-size="11" fill="#7b838d" text-anchor="middle">ReLU</text>
+
+  <path d="M296 130 H396" stroke="#191d24" stroke-width="1.6"/><path d="M391 125 L398 130 L391 135 z" fill="#191d24"/>
+  <text x="346" y="118" font-size="12" fill="#3a45a0" text-anchor="middle">w₂=0.3, b₂=0.2</text>
+
+  <circle cx="426" cy="130" r="28" fill="#ffffff" stroke="#0f7864" stroke-width="1.8"/>
+  <text x="426" y="135" font-size="13" fill="#0f7864" text-anchor="middle">2층</text>
+
+  <path d="M456 130 H540" stroke="#191d24" stroke-width="1.6"/><path d="M535 125 L542 130 L535 135 z" fill="#191d24"/>
+  <circle cx="570" cy="130" r="24" fill="#dfeee9" stroke="#0f7864" stroke-width="1.8"/>
+  <text x="570" y="136" font-size="14" fill="#0f7864" text-anchor="middle">ŷ</text>
+  <text x="570" y="180" font-size="12.5" fill="#7b838d" text-anchor="middle">예측</text>
+
+  <rect x="628" y="98" width="140" height="64" rx="4" fill="#f3e9d9" stroke="#a2661c"/>
+  <text x="698" y="124" font-size="13" fill="#a2661c" text-anchor="middle">정답 y = 1</text>
+  <text x="698" y="148" font-size="12" fill="#7b838d" text-anchor="middle">이것과 비교합니다</text>
+
+  <rect x="30" y="206" width="738" height="34" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="50" y="228" font-size="13" fill="#191d24">파라미터 4개(w₁, b₁, w₂, b₂)만 있는 모델입니다. GPT는 이게 <tspan fill="#3a45a0">700억 개</tspan>일 뿐, 구조는 같습니다.</text>
+</svg>

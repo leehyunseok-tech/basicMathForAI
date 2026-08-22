@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="298" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#a2661c">② 역전파 — 오른쪽에서 왼쪽으로 거슬러 올라갑니다 (연쇄법칙 = 곱하기)</text>
+
+  <g font-size="13">
+    <rect x="30" y="56" width="738" height="30" fill="#191d24"/>
+    <text x="56" y="76" fill="#ffffff" font-size="12.5">구하는 것</text>
+    <text x="290" y="76" fill="#ffffff" font-size="12.5">연쇄법칙으로 곱하면</text>
+    <text x="620" y="76" fill="#ffffff" font-size="12.5">기울기</text>
+
+    <rect x="30" y="86" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="108" fill="#191d24">∂L/∂ŷ</text>
+    <text x="290" y="108" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">2 × (0.5 − 1)</text>
+    <text x="620" y="108" fill="#a2661c">−1.0</text>
+
+    <rect x="30" y="118" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="140" fill="#191d24">∂L/∂w₂</text>
+    <text x="290" y="140" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">(−1.0) × a₁ = (−1.0) × 1.0</text>
+    <text x="620" y="140" fill="#a2661c">−1.0</text>
+
+    <rect x="30" y="150" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="172" fill="#191d24">∂L/∂b₂</text>
+    <text x="290" y="172" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">(−1.0) × 1</text>
+    <text x="620" y="172" fill="#a2661c">−1.0</text>
+
+    <rect x="30" y="182" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="204" fill="#191d24">∂L/∂a₁</text>
+    <text x="290" y="204" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">(−1.0) × w₂ = (−1.0) × 0.3</text>
+    <text x="620" y="204" fill="#a2661c">−0.3</text>
+
+    <rect x="30" y="214" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="236" fill="#191d24">∂L/∂w₁</text>
+    <text x="290" y="236" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">(−0.3) × 1 × x = (−0.3) × 2</text>
+    <text x="620" y="236" fill="#a2661c">−0.6</text>
+
+    <rect x="30" y="246" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="268" fill="#191d24">∂L/∂b₁</text>
+    <text x="290" y="268" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">(−0.3) × 1 × 1</text>
+    <text x="620" y="268" fill="#a2661c">−0.3</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#0f7864">① 순전파 — 왼쪽에서 오른쪽으로 계산합니다</text>
+
+  <g font-size="13.5">
+    <rect x="30" y="56" width="738" height="30" fill="#191d24"/>
+    <text x="56" y="76" fill="#ffffff" font-size="12.5">단계</text>
+    <text x="240" y="76" fill="#ffffff" font-size="12.5">계산</text>
+    <text x="560" y="76" fill="#ffffff" font-size="12.5">결과</text>
+
+    <rect x="30" y="86" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="108" fill="#191d24">1층 계산</text>
+    <text x="240" y="108" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">z₁ = 0.5 × 2 + 0 </text>
+    <text x="560" y="108" fill="#3a45a0">z₁ = 1.0</text>
+
+    <rect x="30" y="118" width="738" height="32" fill="#f7f8f5" stroke="#e4e7df"/>
+    <text x="56" y="140" fill="#191d24">ReLU</text>
+    <text x="240" y="140" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">a₁ = max(0, 1.0)</text>
+    <text x="560" y="140" fill="#3a45a0">a₁ = 1.0</text>
+
+    <rect x="30" y="150" width="738" height="32" fill="#ffffff" stroke="#e4e7df"/>
+    <text x="56" y="172" fill="#191d24">2층 계산</text>
+    <text x="240" y="172" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">ŷ = 0.3 × 1.0 + 0.2</text>
+    <text x="560" y="172" fill="#0f7864">ŷ = 0.5</text>
+
+    <rect x="30" y="182" width="738" height="34" fill="#f3e9d9" stroke="#a2661c"/>
+    <text x="56" y="205" fill="#a2661c">손실</text>
+    <text x="240" y="205" fill="#4d5561" font-family="'SF Mono',Menlo,monospace">L = (1 − 0.5)²</text>
+    <text x="560" y="205" fill="#a2661c" font-weight="bold">L = 0.25</text>
+  </g>
+
+  <rect x="30" y="226" width="738" height="26" rx="3" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="50" y="244" font-size="13" fill="#191d24">정답은 1인데 0.5를 예측했습니다. <tspan fill="#a2661c">0.5만큼 틀렸습니다.</tspan> 이제 고칠 차례입니다.</text>
+</svg>

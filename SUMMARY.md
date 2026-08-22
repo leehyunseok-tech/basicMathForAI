@@ -35,8 +35,8 @@
 - [Chapter 20. 적분 — 쌓인 값과 확률](docs/part5/ch20-integral.md) ✅
 
 ### Part 6. 조립하기 — 배운 수학으로 AI 읽기
-- Chapter 21. AI 수식 해부하기 *(집필 예정)*
-- Chapter 22. 종이 위에서 굴려보는 미니 신경망 *(집필 예정)*
+- [Chapter 21. AI 수식 해부하기](docs/part6/ch21-dissect-formulas.md) ✅
+- [Chapter 22. 종이 위에서 굴려보는 미니 신경망](docs/part6/ch22-hand-run-network.md) ✅
 
 ### 부록 — 필요할 때 펼치는 참고 자료
 - A. 기호 · 그리스 문자 치트시트 *(집필 예정)*

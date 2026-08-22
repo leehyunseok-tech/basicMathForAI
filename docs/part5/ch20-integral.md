@@ -247,4 +247,4 @@ $$
 
 | ⬅️ 이전 | 다음 ➡️ |
 |---|---|
-| [Chapter 19. 연쇄법칙과 경사하강법](ch19-chain-rule-gd.md) | Chapter 21. AI 수식 해부하기 *(집필 예정)* |
+| [Chapter 19. 연쇄법칙과 경사하강법](ch19-chain-rule-gd.md) | [Chapter 21. AI 수식 해부하기](../part6/ch21-dissect-formulas.md) |

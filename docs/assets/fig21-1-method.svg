@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+  <rect x="1" y="1" width="798" height="258" rx="8" fill="#f7f8f5" stroke="#d6dad1"/>
+  <text x="30" y="36" font-size="15" fill="#7b838d">처음 보는 수식을 만났을 때 — 이 순서로만 하면 대부분 읽힙니다</text>
+
+  <rect x="30" y="58" width="236" height="150" rx="4" fill="#ffffff" stroke="#3a45a0"/>
+  <text x="52" y="88" font-size="12" fill="#3a45a0" letter-spacing="1.4">STEP 1</text>
+  <text x="52" y="114" font-size="15" fill="#191d24">글자부터 읽는다</text>
+  <text x="52" y="142" font-size="12.5" fill="#4d5561">θ 세타, η 에타, ∂ 라운드…</text>
+  <text x="52" y="164" font-size="12.5" fill="#4d5561">뜻은 아직 몰라도 됩니다.</text>
+  <text x="52" y="190" font-size="12" fill="#7b838d">소리 내어 읽어 보세요.</text>
+
+  <rect x="282" y="58" width="236" height="150" rx="4" fill="#ffffff" stroke="#0f7864"/>
+  <text x="304" y="88" font-size="12" fill="#0f7864" letter-spacing="1.4">STEP 2</text>
+  <text x="304" y="114" font-size="15" fill="#191d24">덩어리로 자른다</text>
+  <text x="304" y="142" font-size="12.5" fill="#4d5561">Σ 는 어디까지 걸리나?</text>
+  <text x="304" y="164" font-size="12.5" fill="#4d5561">분모는 어디까지인가?</text>
+  <text x="304" y="190" font-size="12" fill="#7b838d">괄호 안쪽부터 봅니다.</text>
+
+  <rect x="534" y="58" width="236" height="150" rx="4" fill="#e5e7f4" stroke="#3a45a0"/>
+  <text x="556" y="88" font-size="12" fill="#3a45a0" letter-spacing="1.4">STEP 3</text>
+  <text x="556" y="114" font-size="15" fill="#191d24">덩어리마다 한국어로</text>
+  <text x="556" y="142" font-size="12.5" fill="#4d5561">“전부 더한다”</text>
+  <text x="556" y="164" font-size="12.5" fill="#4d5561">“비율로 나눈다”</text>
+  <text x="556" y="190" font-size="12" fill="#3a45a0">이어 붙이면 문장이 됩니다.</text>
+
+  <rect x="30" y="222" width="740" height="26" rx="3" fill="#ffffff" stroke="#d6dad1"/>
+  <text x="50" y="240" font-size="13" fill="#191d24">한 번에 다 이해하려 하지 마세요. <tspan fill="#3a45a0">글자 → 덩어리 → 문장</tspan> 순서면 충분합니다.</text>
+</svg>
